@@ -1,0 +1,2376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3516E9D4735D155BC036A4DB393966FC /* naveridlogin-sdk-ios */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 75CE31157FEFB4EACB18011E2D25C61C /* Build configuration list for PBXAggregateTarget "naveridlogin-sdk-ios" */;
+			buildPhases = (
+				5E05BCF0D92F31389F4CCB961DA341B4 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "naveridlogin-sdk-ios";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		003475471715C79534A569A1DE745889 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4756384C9ACC5C6909543E11CA7AB1 /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A8430BFC619C34E5F4D3878D094380 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17A72A91A5F3CEBF64516F44960692 /* CachedResponseHandler.swift */; };
+		079F0820555C5B86C9FBD5EC6344137F /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288B8718BE120334CAA60636088CD7C /* Protected.swift */; };
+		0ACBA2118A43794391B926DB8EC29823 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C715E26F3E9A84F1A12BD1CE384CF0 /* AuthController.swift */; };
+		0C777D87DF6A0B23A84290B13DCCCD23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486333CBDD5C21A13122CA62578DF7ED /* User.swift */; };
+		0CCBB4361672C8994784F0CD9AFC876D /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E640250962870AABF8849153E4932D /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DAE5DE93EDFD23A42E1F2A8EE6C10DE /* AuthErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA494A24F3A0081F0722CD3D02E2D7F /* AuthErrorInfo.swift */; };
+		0EEE12246C4A8F2C2508DC9B4B1AC58C /* Pods-praticeDelegate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B00E8BC821CA465B0A544F2C759C1C /* Pods-praticeDelegate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F55982E655FE4BFC544BA292C271469 /* DecodingContainer+AnyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3500BA68827F73ECB64769AA99C8674 /* DecodingContainer+AnyCollection.swift */; };
+		1152D5AAA7732A77B80CF0E33A68351C /* FSCalendarSeparatorDecorationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D7619040C860EEF7BE3E94403DD167 /* FSCalendarSeparatorDecorationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11CCD832BD537718892C6A216A38490A /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29217AE6BB140A430991F4B16C741D /* URLRequest+Alamofire.swift */; };
+		197457852FC83E905248660B0F930452 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20920AEB25AA3A02C80A138A5B60B1 /* AuthenticationInterceptor.swift */; };
+		1ADE9E4DA732DA450BCAEA3B7E887D0A /* KakaoSDKUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4573232379419260EE2E762F1A71BD /* KakaoSDKUser-dummy.m */; };
+		1AFD57838680DF58184FF94D14C7F3FF /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02131EBDDA388C9D040E4FB898DB64CE /* RequestInterceptor.swift */; };
+		1DF563ACA1B087290224AA1BF3A523EB /* KakaoSDKUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F2582643F1A4FB4E97073804CE9030 /* KakaoSDKUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF421C714EDBE044E5EEB1E0C6A8571 /* FSCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4905CA1D25429FE589354A57E9C6F0D5 /* FSCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21569DF98D87C323F6A189436738823D /* Pods-praticeDelegateTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D88CE450504E7A5B1CBCA7F0D1F0CC37 /* Pods-praticeDelegateTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E5EE988A4BD7C15B55708C6D88AE04 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EBF9059298FCFF83F36FE7EBDB10E3 /* FSCalendarStickyHeader.m */; };
+		282FCD4EA8B05830E9108690B8CD336B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D038CAE6B35A247690160E9D1034A91 /* Session.swift */; };
+		302DA53A8585199E6CA7D91928E0F825 /* TokenManagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51877E47335EBCB794BDA55FAA5D8516 /* TokenManagable.swift */; };
+		31BA4495E38F30416B40AC65A19F966E /* Data+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6772276A5F1DBD6D5812507ACDA2FAC0 /* Data+Utils.swift */; };
+		320C0D7A88AA812EFB20016BA1F5D7AE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC3E05C40903564B583FA368BC3F61 /* AFError.swift */; };
+		36C0E39CF379DA44D355801FBC9C6357 /* OAuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D250BA06A5650BD84803D9A7D71E2B2 /* OAuthToken.swift */; };
+		385BC4B250B6A6DB8AAAEA77D5B7A46F /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F337D4BCF6175FBE3252BE0BD5707 /* Combine.swift */; };
+		3960120DF8907DA574823ACE7ED96076 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A176C039F8BBA818E4D43BB1322EFAF4 /* FSCalendarWeekdayView.m */; };
+		39F986157716D5214013E395BDFA237A /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = E052739A1CBC6ABD856C59083DD99F78 /* FSCalendarDelegationProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A59D8FBAF9A54906E3644AC80465AFB /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEB461F825935B108C5757C638C578 /* Notifications.swift */; };
+		3BF5DFF3D56CFC383593A916639B14C0 /* KakaoSDKAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D741D5F78091823702E6661937D2A0 /* KakaoSDKAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E4E56584545A9F057D6A39565EEBE81 /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F56717B7CB820E06FE29CA3FC7C257E8 /* FSCalendar-dummy.m */; };
+		3FA127A261BB563409868A0DC21807B2 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC72347AE8F160F10075EE845F7325 /* ResponseSerialization.swift */; };
+		441D197780AB5046661B005C3F2503D3 /* AccessTokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157C8A65A3963298B44E06DDD3A5E30 /* AccessTokenInfo.swift */; };
+		4643DA364A3E80706B89D53043890B4D /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7F1FF1ED871F259B87A29D0E8A7FF2 /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4683418880504CD2212FE56C4F1E8F80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FC326CF0FCF4EC54FE8D7A00AB0A8E /* UIKit.framework */; };
+		46AF210707E65039D97550D91E2ED720 /* SdkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D0A900A5D71B3C2FD8FE0B6F7C800 /* SdkUtils.swift */; };
+		471965CBD5F81C3DDDABD55B76B7AA38 /* AuthRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EBCEF280F3844025ADD7E93F7A1A42 /* AuthRequestAdapter.swift */; };
+		482B74C0548970BB9C095E2D8530E421 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74237950714F1DC24BC49EC5502EED /* ParameterEncoding.swift */; };
+		487292821D8CFF995120BDE1AE8BAE6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBE00646A514365F86456896C595115 /* Foundation.framework */; };
+		4EB20057CC576E222A7A0A1DDA259791 /* AuthRequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A8D1DF97A947D4A430242D3578543 /* AuthRequestRetrier.swift */; };
+		4EC9E26EE87569C1B51B6DFF20700772 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 369F175C92B62D8EB19FC28278FF5186 /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517DF7507FDB12DBF9BA9D1536EDCC4F /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB246A04A595536C696BBA42FC80C85 /* FSCalendarWeekdayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		529173B31EFCD3D199E79866AFBEC86C /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = D963E1BB559693DAE1D7A1CE68A8928F /* HTTPHeaders.swift */; };
+		5B92A66A66BD639411C3D839A0F87B0C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F053D8E9FF6DD0F25BC183E5687E6A5 /* Request.swift */; };
+		5F847123FA3D224722CE24317DCEF968 /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F6506B6FA7AD22ED3A3C681EB7CF4503 /* FSCalendarExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6040741383F6F8F6979D6C547230C132 /* FSCalendarSeparatorDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E38EAB1F1F91CFCF043EA4AFF7943C9 /* FSCalendarSeparatorDecorationView.m */; };
+		60CFDC4002EA677B53ECC413F67C149D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBE00646A514365F86456896C595115 /* Foundation.framework */; };
+		6200FBADC796F65545C891DBB74291CF /* MigrateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFE69C889DF8602F89A048F4D67BCF /* MigrateManager.swift */; };
+		6201BB85A0AAF8FA6C4771308917BAB2 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F6AEE508ACCA38FB55ED45B8CFC20 /* FSCalendarTransitionCoordinator.m */; };
+		62FFC4B2AA010A5445E5D9D6294C62B6 /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6790609488D13A0DD7CB80CA9E9126D8 /* FSCalendarCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		643A7AFFB7AEB70B2B9B7E0926055023 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142A85225ECB132D1587D379A331A84E /* RetryPolicy.swift */; };
+		656E01B17E8BA279C882ABA40E8BC699 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA199A521E0684DF9F733DAC9B955F /* AuthApi.swift */; };
+		6626319994CC83940542EF5433B7BFD4 /* SdkCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3CBABCFD5EC9B05CF61B8997895E0F /* SdkCrypto.swift */; };
+		6698DD909F420C8ACE8EE3182AD5467B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBE00646A514365F86456896C595115 /* Foundation.framework */; };
+		67B10FEAA3B7E5387D20E76B1085E94D /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791AB6517A2901697F6776A9CF25BA2D /* URLSessionConfiguration+Alamofire.swift */; };
+		67BFFAB4BEB49A7BA498A15BD0B9CE00 /* AuthApiCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAD6B69CED250B1471C01849A1655BA /* AuthApiCommon.swift */; };
+		6C5EA1EE680E94E87A7B60C2D41FE610 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A5A20A8F24DFFAD9F45496FF361E4 /* UserApi.swift */; };
+		6D30AF40291434679C3C9E1FCDC9AB35 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88CBED33DAA5927D27099924F416E8 /* Date+Utils.swift */; };
+		6DCF6F2A00DA4D32535EB01AE34F3563 /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90399AAFA9AA7E61B485559A442A25E3 /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E6A9D24C839AAFACB4493F1CF0ECDF6 /* KakaoSDKCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199EF8F3C42AF7A244561DC8906D801 /* KakaoSDKCommon.swift */; };
+		732C29255F73EF3D83D49BD4F8FEAA8F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548D7C0FD4FBB801EA2EDB0EC2F536C /* MultipartUpload.swift */; };
+		737747B9A98257DB58112C3A23686669 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5551433F3D3B1A016A252CB3270EB27 /* MultipartFormData.swift */; };
+		74340052A3CD15A02A87D8D651CB8AB8 /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = E57A4E955693DD79D25284DE3A70E458 /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		752DBFCDD74504EEA558FCD691F6D548 /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0810E5ACCEA1CE62350B69551FA8A9 /* FSCalendarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76B8564643B25C2D4A88F61691BBAC1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBE00646A514365F86456896C595115 /* Foundation.framework */; };
+		76C48CC2DD91C40FAECE01F345ED6F02 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EFDB9F2057A19B89D334F8F77FBC3C /* TokenManager.swift */; };
+		77AB6AF4BFC6DE016DA7C057B5799C84 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB165F63E45EB08F4B524F172C71292 /* ServerTrustEvaluation.swift */; };
+		78B1DD1219182494A6AFAD26AAB20AA6 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A5CEFD35295A57CE91003AA7EA7905 /* Concurrency.swift */; };
+		7C36EB6FAE48F6FC909B853745211686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBE00646A514365F86456896C595115 /* Foundation.framework */; };
+		7C7010ADE83D1BD8DBFA2DF70B2BD0DC /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5549131FAC80175CE654B1266D4BD1E5 /* Api.swift */; };
+		7CF1278FE993FF839CD35118F7B7DC91 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24A9746332BADEC6122A55E741DDB4 /* Auth.swift */; };
+		7D64BC3E6CAA4AB54EAC0AAADE93F578 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A527A3155915FFFEAAD868FED9AF66 /* OperationQueue+Alamofire.swift */; };
+		7E4FD78731E739AF275A8DE75F1D6D14 /* SdkCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42536D27B89343A2134CCFA36398BA8F /* SdkCoder.swift */; };
+		7E98902CA894CFE1F54E7934B24B0B37 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF4332A0617915E1D4FDF66D83BD14 /* FSCalendarCollectionView.m */; };
+		7FDEAD728DF7397DAEE4237F07AD5A70 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0E640D24F609701EFAA2EC366F4A4 /* FSCalendarHeaderView.m */; };
+		81E6A0FF7F286008345ECFA3A2103FA8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48934AF88D245DAA56E0F69DF3C381 /* Alamofire.swift */; };
+		82FD97FBBEFE51E2D3B434AF4954FC93 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC3552831D3480B86756A935F0A4704 /* EventMonitor.swift */; };
+		887D9AEC3D86A998A737F30A785AF4B3 /* UserShippingAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544BA53A1CF3DF81433BCDB5EF211CD8 /* UserShippingAddresses.swift */; };
+		88D48CC63AFA5888E125350643FEC36B /* SdkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90DDF3DAEEE668FACCA526188885AC /* SdkLog.swift */; };
+		8C5E6116A763DD791AF307CBBDFEEBFA /* Dictionary+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B189EF2F07D7A190AE620F5F26D18 /* Dictionary+Utils.swift */; };
+		8CDFAFAFB004C1ED565C9DF2BA5CA2D7 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510BE772A932FDCC0DE3FDAF9A6D42 /* Properties.swift */; };
+		8D5833379E9F51BFEEA066AA1C4A25A0 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EB103CBDBBBC0CE0B25EF2C296904A35 /* FSCalendarConstants.m */; };
+		8E698F134A953250D5834C8B83CDAD34 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC688D56594F0E0377BE33DD2A72E8 /* DispatchQueue+Alamofire.swift */; };
+		8E85763AE29BEF0A46EE875B8F069E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBE00646A514365F86456896C595115 /* Foundation.framework */; };
+		9124EF242A6C0D14C353F1AFA5B9930C /* Pods-praticeDelegate-praticeDelegateUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA19A1459EF51DDB795451644B96EB0 /* Pods-praticeDelegate-praticeDelegateUITests-dummy.m */; };
+		94C366CA32DA24C4A7C8754BBF619AB5 /* UserServiceTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96975335DDDDE69C773FFE84926308BF /* UserServiceTerms.swift */; };
+		98E9D77B004C321A6AD483F39AF79D8B /* KakaoSDKAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFE77C0F5C778DDB4D4CF8C6AB1EB98 /* KakaoSDKAuth-dummy.m */; };
+		9F33A9DC7EB048A0461AB16389352009 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F22D68990284FA6675EC12AB216A3 /* ErrorInfo.swift */; };
+		A331FF80F4EC6BDA2C2FA2946DE8E2F5 /* URL+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17256B65B3A9007F88BEEA0B9DEEB60 /* URL+Utils.swift */; };
+		A523488C60BF961290D0B1ABB9ADACEC /* RequestCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07022C456E5A566B2921011FE127AE74 /* RequestCompression.swift */; };
+		A550F7F30921E5FFE67A755D67DA7683 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5070C18655A3310DD23A64E748381E96 /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8B9AF01196677990B84E2DE86921186 /* KakaoSDKCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD8FF0CF964FA7696F11C00F2BC0D19 /* KakaoSDKCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA721ECC2B36AFB7D9FE70C83E6D63F9 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D393E1132F4547BF23DB85D8ADBFBAE /* Response.swift */; };
+		B17D933C8F8BC6A4F91AA620D7D7A870 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC71ED1164B1584961E9A89B5D1C9F0 /* ParameterEncoder.swift */; };
+		B315F31F8896E89629DE93D89AEA794B /* KakaoSDKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1789CDB97A90E9AB90FB4DDFFCA3409E /* KakaoSDKUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E3C70B533C305F634825CC0DDE4960 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257404D53C690DB8680E88D3A0917DEF /* Common.swift */; };
+		B6B3033EC4749E8781704B28E6C1CF7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBE00646A514365F86456896C595115 /* Foundation.framework */; };
+		BAB17A1C6CAD14B3788973EAF8466C93 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28013BA2057D6A040EE36FE5D79758A1 /* NetworkReachabilityManager.swift */; };
+		BBB4BCD9ECCA6DB8F560F7A7BAE720F2 /* KakaoSDKAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B3FAD47611499328AF41446DAAAF5E /* KakaoSDKAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B2FA367074EAF985420BE965303D3 /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 4053E6A413C9362A3D390FC7EF5745F7 /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC1A04CE0A9851F3C003ECD156BE95AC /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EE673B961D186CFC3A7F684732D3E8 /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD1ACFAEC8B0F1F853CE40AF27EDFC7D /* Pods-praticeDelegate-praticeDelegateUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D061C7924142D9F0DE33A07FEDAFAC /* Pods-praticeDelegate-praticeDelegateUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE00A7CCDA89F347153EA021C8B46EBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBE00646A514365F86456896C595115 /* Foundation.framework */; };
+		C04739CBCEE445B66192BFA708655EDF /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC256956DDFB84E44DF2AC5A5AEAEEA8 /* StringEncoding+Alamofire.swift */; };
+		C17CF6C18DAC9307799F1D7972965EDF /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D441ECCC7827F2B899F5601AD94096C /* FSCalendarDelegationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3AC4CEBA507FBE5C349783505968A89 /* UIApplication+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5D172C5C6C8B5B9A656E6F220FA6E /* UIApplication+Utils.swift */; };
+		C3BE0B2BE530BEE564E38AB430C8BF75 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12885918085700D913BE8FF137EB34E9 /* Urls.swift */; };
+		C56CDC4ED34EFF070E3408A5B83DA2CD /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4354C89C02C87F3DFE634E2960665F /* Array+Utils.swift */; };
+		C6ED706364847164CB566CEA1A6FFDD6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5B55FDFEFABE90B0FF5E9EDC3892B9 /* QuartzCore.framework */; };
+		C7ACD835AAE2936FB6B623084612825D /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1AB2F2FFDEC66118286A0C8664FF1 /* FSCalendarExtensions.m */; };
+		C8269B42DED12AB1F275648D0BD32E45 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0ED7D35F2C1631EF4D83290043433E /* URLEncodedFormEncoder.swift */; };
+		CE132491B81D44BB6B692C3F72FBC980 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 467B88A7AEA75CABC2ACBA2D3D2C9913 /* FSCalendarCollectionViewLayout.m */; };
+		CF10A50704D5CF6F07D5949BA4AB3EAB /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A649019C93CE2393BE57D09A8ACAC9 /* FSCalendarDelegationFactory.m */; };
+		D053D556FBFE84B60B43AE5B3CF9731C /* Pods-praticeDelegate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F56995027D176E6DAB59CB7E6F7EF /* Pods-praticeDelegate-dummy.m */; };
+		D0560E8E2E5EB407B5D8E0381BF453FA /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80B3F20FFBC3F64BF87191BA5C844F /* URLConvertible+URLRequestConvertible.swift */; };
+		D09FBBADAF7C5C757AA5AB5DFE54BD25 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A17EB091C7E15D2CD4E81623AFEFE9 /* Alamofire-dummy.m */; };
+		D1F9B324BF45223108B846D81DACF9F0 /* Pods-praticeDelegateTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B40EA6E615ABD9147A071B83D47BE3 /* Pods-praticeDelegateTests-dummy.m */; };
+		D25882A80639C4217B21A7C4ECA3ADBE /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A67C611F9639B23CABB52497B8F2452 /* Scope.swift */; };
+		D368E6F70C5E6998548A72E65F92432D /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6CA1EA35EE149387E00DE96AEE3AD0 /* Validation.swift */; };
+		D39C1AF19DB9D342895D76A9B0013611 /* KakaoSDKCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB33CF9CB77627095AC1D4D3814AC7C3 /* KakaoSDKCommon-dummy.m */; };
+		D7BCBE1EB4A638403C265CE2199EFF1B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E927094BAB34585128989AF746E69B66 /* CFNetwork.framework */; };
+		DD769EA965E96A3783496F706CABA41F /* ApiRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE848693820AD9237DC24B2CB9A7C82C /* ApiRequestAdapter.swift */; };
+		DFA984E296321B0C7A219FFA68221225 /* SdkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A6D9663E72ACEBCD6F818394DB530 /* SdkError.swift */; };
+		E11220C77D9BB217D63867401FF624F6 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F36FB76E2287A21F16CEF282043765 /* FSCalendarCell.m */; };
+		E53DD07DFCDD2241779DBAAE71E77032 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1076ACBE141CCF64FBB4B125F7AAD2EB /* FSCalendarDelegationProxy.m */; };
+		E6251F02EE12804D1B66AE32E716E664 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714614B12F932327B6ABFC0D20A586E9 /* SessionDelegate.swift */; };
+		ECE6F23823454A8FDB3F97CE1A7CD182 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E336A9171C2BED942D1E0C5EA3032C1D /* RedirectHandler.swift */; };
+		ECF2F956B37A4C28B228BC291A57AD6E /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34141E69C74C57B259496A552C56CE25 /* RequestTaskMap.swift */; };
+		EE7F8A38EBEA02809600A3ABCEEC1C90 /* EncodingContainer+AnyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7534AC7FDA8E5E9B41C9029514ABF014 /* EncodingContainer+AnyCollection.swift */; };
+		F038D81F7ABAA15CF03246AD4BF334F7 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA08B505498DA5E3332B912C409AC0E4 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B9720240D5609A1DE32B8350FE0B5B /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE99FB7592520A12F6F3A7F0CE1707C /* FSCalendarCalculator.m */; };
+		F2415AE8678DE2698B7AD7D88B1A5C0F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9776A0C16F57CF5217A0AC911186939 /* AlamofireExtended.swift */; };
+		F3F18A1FEC8212A61301637E40558A13 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA513BC9FDEF289CC7935F29F39D8C4 /* FSCalendarAppearance.m */; };
+		F66CC47AD425C8D57BD149AFD09C2AFE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404137B035FBAD9F436FE56987D7F1A /* HTTPMethod.swift */; };
+		F6E94E8EE1CE35F49B9091BE8748587B /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F5575101DEF7A1EE355ED4790D9E8 /* Result+Alamofire.swift */; };
+		F7C20C67D0D5A1C73A0A057268A719C1 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D14926E796ADE9E65142CC0CFFA680 /* FSCalendar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07E4F29902DD9DB23467117316164E46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3516E9D4735D155BC036A4DB393966FC;
+			remoteInfo = "naveridlogin-sdk-ios";
+		};
+		274745DF23BCCE3D71B8F8A7DAB20F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3099061AA5A8F3149E8A9721610B992;
+			remoteInfo = "Pods-praticeDelegate";
+		};
+		2FE6AC64F2C92E6C71A610503AE2AD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205D6EF1B8DCC8419E2F53266F6ADCDC;
+			remoteInfo = KakaoSDKCommon;
+		};
+		2FF2F8D9721FFFB9B864AD5E7B3F74AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		31F924D84018583098F4E073EEF4F53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CA882AD877ED964BDF66235E416BC1;
+			remoteInfo = KakaoSDKAuth;
+		};
+		46479CE2C7989A779FA0E414E177DE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205D6EF1B8DCC8419E2F53266F6ADCDC;
+			remoteInfo = KakaoSDKCommon;
+		};
+		6786CAE3E3F176EE4D604DF548A9568D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205D6EF1B8DCC8419E2F53266F6ADCDC;
+			remoteInfo = KakaoSDKCommon;
+		};
+		70DF38E723903564123D56E804002604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CA882AD877ED964BDF66235E416BC1;
+			remoteInfo = KakaoSDKAuth;
+		};
+		88237FDD8969EE707C151C6931ECE3CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		9FFA3F90A558D516BE68E0A5804D0CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		A259E8C00F987BD513FD696C20891284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CA882AD877ED964BDF66235E416BC1;
+			remoteInfo = KakaoSDKAuth;
+		};
+		AE0942ED4BFAA180C108BD3CD38780B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13285D54682BEAD805960F9E6EEB9949;
+			remoteInfo = FSCalendar;
+		};
+		B3782FED0D9EA3A8E882C4F420CA05F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13285D54682BEAD805960F9E6EEB9949;
+			remoteInfo = FSCalendar;
+		};
+		CA061D2B36D9A49AB5A5B1851029390C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7BF367078951B6E8BC95B3DA89967A;
+			remoteInfo = KakaoSDKUser;
+		};
+		D23258C52E180644B9D961B960E3CA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3516E9D4735D155BC036A4DB393966FC;
+			remoteInfo = "naveridlogin-sdk-ios";
+		};
+		FB2FDD0C77F8F81F444CC50487AF94B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7BF367078951B6E8BC95B3DA89967A;
+			remoteInfo = KakaoSDKUser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02131EBDDA388C9D040E4FB898DB64CE /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		03EBCEF280F3844025ADD7E93F7A1A42 /* AuthRequestAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthRequestAdapter.swift; path = Sources/KakaoSDKAuth/auth/AuthRequestAdapter.swift; sourceTree = "<group>"; };
+		06EBF9059298FCFF83F36FE7EBDB10E3 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		07022C456E5A566B2921011FE127AE74 /* RequestCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCompression.swift; path = Source/RequestCompression.swift; sourceTree = "<group>"; };
+		081087571E7C07D2072F72D5106AF80F /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		0A74237950714F1DC24BC49EC5502EED /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		0D038CAE6B35A247690160E9D1034A91 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		0E38EAB1F1F91CFCF043EA4AFF7943C9 /* FSCalendarSeparatorDecorationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarSeparatorDecorationView.m; path = FSCalendar/FSCalendarSeparatorDecorationView.m; sourceTree = "<group>"; };
+		0F0FFB413A5C046307E32AB88C326F39 /* Pods-praticeDelegate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-praticeDelegate-Info.plist"; sourceTree = "<group>"; };
+		0FC3552831D3480B86756A935F0A4704 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		1076ACBE141CCF64FBB4B125F7AAD2EB /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		11DE1F18306FBB78223874835DBD3B0C /* Pods-praticeDelegate */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-praticeDelegate"; path = Pods_praticeDelegate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12885918085700D913BE8FF137EB34E9 /* Urls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Urls.swift; path = Sources/KakaoSDKCommon/common/common/Urls.swift; sourceTree = "<group>"; };
+		1353D6A467F43A6A3EA21D310BD35A31 /* KakaoSDKUser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KakaoSDKUser; path = KakaoSDKUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E06AE96838096767352E8285C9D93D /* Pods-praticeDelegate-praticeDelegateUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-praticeDelegate-praticeDelegateUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		142A85225ECB132D1587D379A331A84E /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		1789CDB97A90E9AB90FB4DDFFCA3409E /* KakaoSDKUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KakaoSDKUser.h; path = Sources/KakaoSDKUser/KakaoSDKUser.h; sourceTree = "<group>"; };
+		17F0BD1640C9E305FE070927861439AD /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		18D7619040C860EEF7BE3E94403DD167 /* FSCalendarSeparatorDecorationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarSeparatorDecorationView.h; path = FSCalendar/FSCalendarSeparatorDecorationView.h; sourceTree = "<group>"; };
+		194A396D892155EF263FF8C519235B8F /* Pods-praticeDelegateTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-praticeDelegateTests.modulemap"; sourceTree = "<group>"; };
+		1C30A7ADEBF956DCE1FFDFFDE4585A62 /* Pods-praticeDelegate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-praticeDelegate-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D17A72A91A5F3CEBF64516F44960692 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		1D24A9746332BADEC6122A55E741DDB4 /* Auth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth.swift; path = Sources/KakaoSDKAuth/auth/Auth.swift; sourceTree = "<group>"; };
+		1D393E1132F4547BF23DB85D8ADBFBAE /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		1F128D6A82223852307293579E604128 /* Pods-praticeDelegate-praticeDelegateUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-praticeDelegate-praticeDelegateUITests"; path = Pods_praticeDelegate_praticeDelegateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2157C8A65A3963298B44E06DDD3A5E30 /* AccessTokenInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenInfo.swift; path = Sources/KakaoSDKUser/model/AccessTokenInfo.swift; sourceTree = "<group>"; };
+		2199EF8F3C42AF7A244561DC8906D801 /* KakaoSDKCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KakaoSDKCommon.swift; path = Sources/KakaoSDKCommon/common/KakaoSDKCommon.swift; sourceTree = "<group>"; };
+		2288B8718BE120334CAA60636088CD7C /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		257404D53C690DB8680E88D3A0917DEF /* Common.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Common.swift; path = Sources/KakaoSDKCommon/common/common/Common.swift; sourceTree = "<group>"; };
+		25BDA6E824AD6CBD857358A023C694AD /* KakaoSDKCommon */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KakaoSDKCommon; path = KakaoSDKCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28013BA2057D6A040EE36FE5D79758A1 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		2B4573232379419260EE2E762F1A71BD /* KakaoSDKUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KakaoSDKUser-dummy.m"; sourceTree = "<group>"; };
+		2CAC72347AE8F160F10075EE845F7325 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		2D0ED7D35F2C1631EF4D83290043433E /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		2EE026DD8CCD3420D8664C2C3460210E /* Pods-praticeDelegate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-praticeDelegate-frameworks.sh"; sourceTree = "<group>"; };
+		2EE666BA88AF4FD5393EFCD437C8C685 /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCalendar.modulemap; sourceTree = "<group>"; };
+		2F8F6AEE508ACCA38FB55ED45B8CFC20 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		2FA19A1459EF51DDB795451644B96EB0 /* Pods-praticeDelegate-praticeDelegateUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-praticeDelegate-praticeDelegateUITests-dummy.m"; sourceTree = "<group>"; };
+		304B238D23BD8C2A421ABF0BE5352239 /* NaverThirdPartyLogin.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = NaverThirdPartyLogin.xcframework; sourceTree = "<group>"; };
+		311C9F8CE8050EB2E06BA450FC1A2DE0 /* KakaoSDKAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KakaoSDKAuth-Info.plist"; sourceTree = "<group>"; };
+		333F22D68990284FA6675EC12AB216A3 /* ErrorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorInfo.swift; path = Sources/KakaoSDKCommon/common/model/ErrorInfo.swift; sourceTree = "<group>"; };
+		34141E69C74C57B259496A552C56CE25 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		348A8D1DF97A947D4A430242D3578543 /* AuthRequestRetrier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthRequestRetrier.swift; path = Sources/KakaoSDKAuth/auth/AuthRequestRetrier.swift; sourceTree = "<group>"; };
+		3498131A10447C5F159D500D382F0EFB /* Pods-praticeDelegate-praticeDelegateUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-praticeDelegate-praticeDelegateUITests-Info.plist"; sourceTree = "<group>"; };
+		34C715E26F3E9A84F1A12BD1CE384CF0 /* AuthController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthController.swift; path = Sources/KakaoSDKAuth/auth/AuthController.swift; sourceTree = "<group>"; };
+		35DAD4F6CFAB12FAB9B77DB7A3650515 /* KakaoSDKUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KakaoSDKUser.modulemap; sourceTree = "<group>"; };
+		369F175C92B62D8EB19FC28278FF5186 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		36A5D172C5C6C8B5B9A656E6F220FA6E /* UIApplication+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Utils.swift"; path = "Sources/KakaoSDKCommon/common/extension/UIApplication+Utils.swift"; sourceTree = "<group>"; };
+		36D6F572E427AAFD709ACF7EF29A7922 /* Pods-praticeDelegateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-praticeDelegateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD4D5A244D6F0E0DA274E47BCDF2642 /* Pods-praticeDelegateTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-praticeDelegateTests"; path = Pods_praticeDelegateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA94833F7CB81B2D2CB78F82BC6B047 /* Pods-praticeDelegate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-praticeDelegate.debug.xcconfig"; sourceTree = "<group>"; };
+		3D20920AEB25AA3A02C80A138A5B60B1 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		4053E6A413C9362A3D390FC7EF5745F7 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		42536D27B89343A2134CCFA36398BA8F /* SdkCoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SdkCoder.swift; path = Sources/KakaoSDKCommon/common/common/SdkCoder.swift; sourceTree = "<group>"; };
+		4404137B035FBAD9F436FE56987D7F1A /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		467B88A7AEA75CABC2ACBA2D3D2C9913 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		4735B26F8C07D66B96D952F3DECB1F65 /* KakaoSDKAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKAuth-prefix.pch"; sourceTree = "<group>"; };
+		486333CBDD5C21A13122CA62578DF7ED /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = User.swift; path = Sources/KakaoSDKUser/model/User.swift; sourceTree = "<group>"; };
+		4905CA1D25429FE589354A57E9C6F0D5 /* FSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-umbrella.h"; sourceTree = "<group>"; };
+		4BFF4332A0617915E1D4FDF66D83BD14 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		4D6A6D9663E72ACEBCD6F818394DB530 /* SdkError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SdkError.swift; path = Sources/KakaoSDKCommon/common/common/SdkError.swift; sourceTree = "<group>"; };
+		4E711265B0F2D44C47BF87970489C0CE /* KakaoSDKUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKUser.release.xcconfig; sourceTree = "<group>"; };
+		4EB246A04A595536C696BBA42FC80C85 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		5070C18655A3310DD23A64E748381E96 /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		50F36FB76E2287A21F16CEF282043765 /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		51877E47335EBCB794BDA55FAA5D8516 /* TokenManagable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenManagable.swift; path = Sources/KakaoSDKAuth/auth/TokenManagable.swift; sourceTree = "<group>"; };
+		51BB6A01B3E30F0AB3831FA9D05B18D9 /* Pods-praticeDelegate-praticeDelegateUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-praticeDelegate-praticeDelegateUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51D061C7924142D9F0DE33A07FEDAFAC /* Pods-praticeDelegate-praticeDelegateUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-praticeDelegate-praticeDelegateUITests-umbrella.h"; sourceTree = "<group>"; };
+		544BA53A1CF3DF81433BCDB5EF211CD8 /* UserShippingAddresses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserShippingAddresses.swift; path = Sources/KakaoSDKUser/model/UserShippingAddresses.swift; sourceTree = "<group>"; };
+		54866B2D4240865600CFAC63A4B854ED /* Pods-praticeDelegateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-praticeDelegateTests.release.xcconfig"; sourceTree = "<group>"; };
+		5548D7C0FD4FBB801EA2EDB0EC2F536C /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		5549131FAC80175CE654B1266D4BD1E5 /* Api.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Api.swift; path = Sources/KakaoSDKCommon/network/Api.swift; sourceTree = "<group>"; };
+		55748A74CEA49CC557C29EA767FB0885 /* KakaoSDKAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKAuth.release.xcconfig; sourceTree = "<group>"; };
+		5CD40860EBE8D865C07E522141750082 /* Pods-praticeDelegate-praticeDelegateUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-praticeDelegate-praticeDelegateUITests.modulemap"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA513BC9FDEF289CC7935F29F39D8C4 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		5EA4B49F799108C32967FA7C72F4D4AA /* naveridlogin-sdk-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "naveridlogin-sdk-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		60A649019C93CE2393BE57D09A8ACAC9 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		6772276A5F1DBD6D5812507ACDA2FAC0 /* Data+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Utils.swift"; path = "Sources/KakaoSDKCommon/common/extension/Data+Utils.swift"; sourceTree = "<group>"; };
+		6790609488D13A0DD7CB80CA9E9126D8 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		694F5575101DEF7A1EE355ED4790D9E8 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		6CAD3BE91D4D0FF315F4A40A80D663AE /* KakaoSDKAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKAuth.debug.xcconfig; sourceTree = "<group>"; };
+		6CAD6B69CED250B1471C01849A1655BA /* AuthApiCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthApiCommon.swift; path = Sources/KakaoSDKAuth/auth/AuthApiCommon.swift; sourceTree = "<group>"; };
+		6D3622B675F2A696791D8FC48A26D813 /* Pods-praticeDelegate-praticeDelegateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-praticeDelegate-praticeDelegateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D441ECCC7827F2B899F5601AD94096C /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		6E23FE62A9A6BB4410B272CB03B7B131 /* KakaoSDKUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKUser.debug.xcconfig; sourceTree = "<group>"; };
+		6E88CBED33DAA5927D27099924F416E8 /* Date+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Utils.swift"; path = "Sources/KakaoSDKCommon/common/extension/Date+Utils.swift"; sourceTree = "<group>"; };
+		6F2CFC6971C371F439FD6EE3A068B772 /* Pods-praticeDelegate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-praticeDelegate.modulemap"; sourceTree = "<group>"; };
+		6F4F56995027D176E6DAB59CB7E6F7EF /* Pods-praticeDelegate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-praticeDelegate-dummy.m"; sourceTree = "<group>"; };
+		714614B12F932327B6ABFC0D20A586E9 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		7534AC7FDA8E5E9B41C9029514ABF014 /* EncodingContainer+AnyCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EncodingContainer+AnyCollection.swift"; path = "Sources/KakaoSDKCommon/common/extension/EncodingContainer+AnyCollection.swift"; sourceTree = "<group>"; };
+		75A527A3155915FFFEAAD868FED9AF66 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		791AB6517A2901697F6776A9CF25BA2D /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		7E80B3F20FFBC3F64BF87191BA5C844F /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		7F053D8E9FF6DD0F25BC183E5687E6A5 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		7F29217AE6BB140A430991F4B16C741D /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		83708E36AF17B4E79E00D1CB56BA47A0 /* KakaoSDKCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKCommon-prefix.pch"; sourceTree = "<group>"; };
+		84B00E8BC821CA465B0A544F2C759C1C /* Pods-praticeDelegate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-praticeDelegate-umbrella.h"; sourceTree = "<group>"; };
+		86D741D5F78091823702E6661937D2A0 /* KakaoSDKAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KakaoSDKAuth.h; path = Sources/KakaoSDKAuth/KakaoSDKAuth.h; sourceTree = "<group>"; };
+		86E640250962870AABF8849153E4932D /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		86EFDB9F2057A19B89D334F8F77FBC3C /* TokenManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenManager.swift; path = Sources/KakaoSDKAuth/auth/TokenManager.swift; sourceTree = "<group>"; };
+		89BEB461F825935B108C5757C638C578 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		8B3F337D4BCF6175FBE3252BE0BD5707 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		8BD380610BE416238E60B41E95FFAA17 /* KakaoSDKAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KakaoSDKAuth.modulemap; sourceTree = "<group>"; };
+		8C48934AF88D245DAA56E0F69DF3C381 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		8CBE00646A514365F86456896C595115 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8D7F1FF1ED871F259B87A29D0E8A7FF2 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		90399AAFA9AA7E61B485559A442A25E3 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		95209B8BB966524BC76543F99C75F5FE /* FSCalendar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCalendar; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9552B9E4995185A8F4DA4BB0C3CD9043 /* KakaoSDKUser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KakaoSDKUser-Info.plist"; sourceTree = "<group>"; };
+		96975335DDDDE69C773FFE84926308BF /* UserServiceTerms.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserServiceTerms.swift; path = Sources/KakaoSDKUser/model/UserServiceTerms.swift; sourceTree = "<group>"; };
+		9A5077D8407828C8D347CE2BBC94B553 /* FSCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSCalendar-Info.plist"; sourceTree = "<group>"; };
+		9A67C611F9639B23CABB52497B8F2452 /* Scope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scope.swift; path = Sources/KakaoSDKUser/model/Scope.swift; sourceTree = "<group>"; };
+		9C3CBABCFD5EC9B05CF61B8997895E0F /* SdkCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SdkCrypto.swift; path = Sources/KakaoSDKCommon/common/common/SdkCrypto.swift; sourceTree = "<group>"; };
+		9D250BA06A5650BD84803D9A7D71E2B2 /* OAuthToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthToken.swift; path = Sources/KakaoSDKAuth/model/OAuthToken.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ECA199A521E0684DF9F733DAC9B955F /* AuthApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthApi.swift; path = Sources/KakaoSDKAuth/auth/AuthApi.swift; sourceTree = "<group>"; };
+		9F453801F27585052F413F613C847DB2 /* KakaoSDKAuth */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KakaoSDKAuth; path = KakaoSDKAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A176C039F8BBA818E4D43BB1322EFAF4 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		A2C73CF419B9D09CD0297A745E2EFFE0 /* Pods-praticeDelegateTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-praticeDelegateTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A30A5A20A8F24DFFAD9F45496FF361E4 /* UserApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserApi.swift; path = Sources/KakaoSDKUser/UserApi.swift; sourceTree = "<group>"; };
+		A48A556B595E41FED5B012FD797BC2CD /* Pods-praticeDelegate-praticeDelegateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-praticeDelegate-praticeDelegateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9776A0C16F57CF5217A0AC911186939 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		AA6CA1EA35EE149387E00DE96AEE3AD0 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		AA8D0A900A5D71B3C2FD8FE0B6F7C800 /* SdkUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SdkUtils.swift; path = Sources/KakaoSDKCommon/common/common/SdkUtils.swift; sourceTree = "<group>"; };
+		AC5B55FDFEFABE90B0FF5E9EDC3892B9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AC90DDF3DAEEE668FACCA526188885AC /* SdkLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SdkLog.swift; path = Sources/KakaoSDKCommon/common/common/SdkLog.swift; sourceTree = "<group>"; };
+		ADF2A74A6182D5A0E2C3CA8B0E870B58 /* Pods-praticeDelegateTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-praticeDelegateTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF58C538748CC955DE4D9D43E457E6C5 /* FSCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.release.xcconfig; sourceTree = "<group>"; };
+		AFC4836A90FCA20099BAC78D826A4029 /* KakaoSDKUser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKUser-prefix.pch"; sourceTree = "<group>"; };
+		AFE99FB7592520A12F6F3A7F0CE1707C /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		B1B3FAD47611499328AF41446DAAAF5E /* KakaoSDKAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKAuth-umbrella.h"; sourceTree = "<group>"; };
+		B1F0E640D24F609701EFAA2EC366F4A4 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		B20C647CB0FD0C4E0E5B3E5CF947CC74 /* Pods-praticeDelegate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-praticeDelegate-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7FD38855FE95B2028D5BF20913568F5 /* KakaoSDKCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKCommon.debug.xcconfig; sourceTree = "<group>"; };
+		BC0810E5ACCEA1CE62350B69551FA8A9 /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
+		BC256956DDFB84E44DF2AC5A5AEAEEA8 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		C016FF7329339960B8545CBC1CA2AE1F /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		C1F6BCD3FC944F589A478B82E778892A /* Pods-praticeDelegate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-praticeDelegate.release.xcconfig"; sourceTree = "<group>"; };
+		C2B40EA6E615ABD9147A071B83D47BE3 /* Pods-praticeDelegateTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-praticeDelegateTests-dummy.m"; sourceTree = "<group>"; };
+		C3A5CEFD35295A57CE91003AA7EA7905 /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
+		C4DFE69C889DF8602F89A048F4D67BCF /* MigrateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MigrateManager.swift; path = Sources/KakaoSDKAuth/auth/MigrateManager.swift; sourceTree = "<group>"; };
+		C6D14926E796ADE9E65142CC0CFFA680 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		C6FC326CF0FCF4EC54FE8D7A00AB0A8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CB4756384C9ACC5C6909543E11CA7AB1 /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		CD4354C89C02C87F3DFE634E2960665F /* Array+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Utils.swift"; path = "Sources/KakaoSDKCommon/common/extension/Array+Utils.swift"; sourceTree = "<group>"; };
+		CF4C8F2108615625E14E88F1309BCB2E /* FSCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.debug.xcconfig; sourceTree = "<group>"; };
+		D154336023A523D21267A4A3973A35A8 /* naveridlogin-sdk-ios-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "naveridlogin-sdk-ios-xcframeworks.sh"; sourceTree = "<group>"; };
+		D17256B65B3A9007F88BEEA0B9DEEB60 /* URL+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Utils.swift"; path = "Sources/KakaoSDKCommon/common/extension/URL+Utils.swift"; sourceTree = "<group>"; };
+		D5551433F3D3B1A016A252CB3270EB27 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		D6DC3E05C40903564B583FA368BC3F61 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		D88CE450504E7A5B1CBCA7F0D1F0CC37 /* Pods-praticeDelegateTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-praticeDelegateTests-umbrella.h"; sourceTree = "<group>"; };
+		D963E1BB559693DAE1D7A1CE68A8928F /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		DA08B505498DA5E3332B912C409AC0E4 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		DB33CF9CB77627095AC1D4D3814AC7C3 /* KakaoSDKCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KakaoSDKCommon-dummy.m"; sourceTree = "<group>"; };
+		DBFE77C0F5C778DDB4D4CF8C6AB1EB98 /* KakaoSDKAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KakaoSDKAuth-dummy.m"; sourceTree = "<group>"; };
+		DD0E3A1242656A97E9033D6970B591BC /* KakaoSDKCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KakaoSDKCommon.modulemap; sourceTree = "<group>"; };
+		DD2080A3EE311A6DEC6F5B74CDB9F2D5 /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		DD510BE772A932FDCC0DE3FDAF9A6D42 /* Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = Sources/KakaoSDKCommon/common/common/Properties.swift; sourceTree = "<group>"; };
+		DEC71ED1164B1584961E9A89B5D1C9F0 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		DEF7467B11AA1ECDCAE4B4477BD145BB /* Pods-praticeDelegateTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-praticeDelegateTests-Info.plist"; sourceTree = "<group>"; };
+		E052739A1CBC6ABD856C59083DD99F78 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		E287A9DF831270CE29BCE5DD1E400962 /* Pods-praticeDelegate-praticeDelegateUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-praticeDelegate-praticeDelegateUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E336A9171C2BED942D1E0C5EA3032C1D /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		E3A17EB091C7E15D2CD4E81623AFEFE9 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		E57A4E955693DD79D25284DE3A70E458 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		E5EE673B961D186CFC3A7F684732D3E8 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		E8F2582643F1A4FB4E97073804CE9030 /* KakaoSDKUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKUser-umbrella.h"; sourceTree = "<group>"; };
+		E927094BAB34585128989AF746E69B66 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		E9EC725C36EB64DE9F7A95BEA313E081 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		EB103CBDBBBC0CE0B25EF2C296904A35 /* FSCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		EE848693820AD9237DC24B2CB9A7C82C /* ApiRequestAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiRequestAdapter.swift; path = Sources/KakaoSDKCommon/network/ApiRequestAdapter.swift; sourceTree = "<group>"; };
+		EEA494A24F3A0081F0722CD3D02E2D7F /* AuthErrorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthErrorInfo.swift; path = Sources/KakaoSDKCommon/common/model/AuthErrorInfo.swift; sourceTree = "<group>"; };
+		EF00AFBFC292F1E31FF39BFAABC0B2BF /* naveridlogin-sdk-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "naveridlogin-sdk-ios.release.xcconfig"; sourceTree = "<group>"; };
+		F118617FD58382A5E7F5AEAC1ED130D6 /* KakaoSDKCommon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KakaoSDKCommon-Info.plist"; sourceTree = "<group>"; };
+		F3500BA68827F73ECB64769AA99C8674 /* DecodingContainer+AnyCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DecodingContainer+AnyCollection.swift"; path = "Sources/KakaoSDKCommon/common/extension/DecodingContainer+AnyCollection.swift"; sourceTree = "<group>"; };
+		F37219E7D3EC5993E0FD975D46161449 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F4F1AB2F2FFDEC66118286A0C8664FF1 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		F56717B7CB820E06FE29CA3FC7C257E8 /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		F6506B6FA7AD22ED3A3C681EB7CF4503 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+		F9CC688D56594F0E0377BE33DD2A72E8 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		FD7B189EF2F07D7A190AE620F5F26D18 /* Dictionary+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+Utils.swift"; path = "Sources/KakaoSDKCommon/common/extension/Dictionary+Utils.swift"; sourceTree = "<group>"; };
+		FDD8FF0CF964FA7696F11C00F2BC0D19 /* KakaoSDKCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKCommon-umbrella.h"; sourceTree = "<group>"; };
+		FEB165F63E45EB08F4B524F172C71292 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		FFAC38E998E83CE9A07C44577D544FB9 /* KakaoSDKCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKCommon.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		294DA0610EDBAF0F092C221434B602D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487292821D8CFF995120BDE1AE8BAE6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB76C39645E92F9155C35505568F3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B3033EC4749E8781704B28E6C1CF7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF6E64D3157435E5797A5278584A4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BCBE1EB4A638403C265CE2199EFF1B /* CFNetwork.framework in Frameworks */,
+				8E85763AE29BEF0A46EE875B8F069E8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243A64755C7A548C64DC56F66C1347B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CFDC4002EA677B53ECC413F67C149D /* Foundation.framework in Frameworks */,
+				C6ED706364847164CB566CEA1A6FFDD6 /* QuartzCore.framework in Frameworks */,
+				4683418880504CD2212FE56C4F1E8F80 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AD3A9A9243483C6D785D698FD2E5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE00A7CCDA89F347153EA021C8B46EBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF7DB8AFA7B26BB829FBBE5F5B953E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C36EB6FAE48F6FC909B853745211686 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6945A862155FDCFEF9DD493A66CCFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B8564643B25C2D4A88F61691BBAC1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FEF2F2B5A59C3B7AECDF290252B96D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6698DD909F420C8ACE8EE3182AD5467B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2C23D0E07725E2EEE8416B3FE77388 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E927094BAB34585128989AF746E69B66 /* CFNetwork.framework */,
+				8CBE00646A514365F86456896C595115 /* Foundation.framework */,
+				AC5B55FDFEFABE90B0FF5E9EDC3892B9 /* QuartzCore.framework */,
+				C6FC326CF0FCF4EC54FE8D7A00AB0A8E /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2118275200E8A9CD25A31BAEECDFB710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				95209B8BB966524BC76543F99C75F5FE /* FSCalendar */,
+				9F453801F27585052F413F613C847DB2 /* KakaoSDKAuth */,
+				25BDA6E824AD6CBD857358A023C694AD /* KakaoSDKCommon */,
+				1353D6A467F43A6A3EA21D310BD35A31 /* KakaoSDKUser */,
+				11DE1F18306FBB78223874835DBD3B0C /* Pods-praticeDelegate */,
+				1F128D6A82223852307293579E604128 /* Pods-praticeDelegate-praticeDelegateUITests */,
+				3BD4D5A244D6F0E0DA274E47BCDF2642 /* Pods-praticeDelegateTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F9E6552841453A3937CB07D14B33B69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD0E3A1242656A97E9033D6970B591BC /* KakaoSDKCommon.modulemap */,
+				DB33CF9CB77627095AC1D4D3814AC7C3 /* KakaoSDKCommon-dummy.m */,
+				F118617FD58382A5E7F5AEAC1ED130D6 /* KakaoSDKCommon-Info.plist */,
+				83708E36AF17B4E79E00D1CB56BA47A0 /* KakaoSDKCommon-prefix.pch */,
+				FDD8FF0CF964FA7696F11C00F2BC0D19 /* KakaoSDKCommon-umbrella.h */,
+				B7FD38855FE95B2028D5BF20913568F5 /* KakaoSDKCommon.debug.xcconfig */,
+				FFAC38E998E83CE9A07C44577D544FB9 /* KakaoSDKCommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KakaoSDKCommon";
+			sourceTree = "<group>";
+		};
+		3658777816A736469AE89420CBEF8CB3 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				D6DC3E05C40903564B583FA368BC3F61 /* AFError.swift */,
+				8C48934AF88D245DAA56E0F69DF3C381 /* Alamofire.swift */,
+				A9776A0C16F57CF5217A0AC911186939 /* AlamofireExtended.swift */,
+				3D20920AEB25AA3A02C80A138A5B60B1 /* AuthenticationInterceptor.swift */,
+				1D17A72A91A5F3CEBF64516F44960692 /* CachedResponseHandler.swift */,
+				8B3F337D4BCF6175FBE3252BE0BD5707 /* Combine.swift */,
+				C3A5CEFD35295A57CE91003AA7EA7905 /* Concurrency.swift */,
+				F9CC688D56594F0E0377BE33DD2A72E8 /* DispatchQueue+Alamofire.swift */,
+				0FC3552831D3480B86756A935F0A4704 /* EventMonitor.swift */,
+				D963E1BB559693DAE1D7A1CE68A8928F /* HTTPHeaders.swift */,
+				4404137B035FBAD9F436FE56987D7F1A /* HTTPMethod.swift */,
+				D5551433F3D3B1A016A252CB3270EB27 /* MultipartFormData.swift */,
+				5548D7C0FD4FBB801EA2EDB0EC2F536C /* MultipartUpload.swift */,
+				28013BA2057D6A040EE36FE5D79758A1 /* NetworkReachabilityManager.swift */,
+				89BEB461F825935B108C5757C638C578 /* Notifications.swift */,
+				75A527A3155915FFFEAAD868FED9AF66 /* OperationQueue+Alamofire.swift */,
+				DEC71ED1164B1584961E9A89B5D1C9F0 /* ParameterEncoder.swift */,
+				0A74237950714F1DC24BC49EC5502EED /* ParameterEncoding.swift */,
+				2288B8718BE120334CAA60636088CD7C /* Protected.swift */,
+				E336A9171C2BED942D1E0C5EA3032C1D /* RedirectHandler.swift */,
+				7F053D8E9FF6DD0F25BC183E5687E6A5 /* Request.swift */,
+				07022C456E5A566B2921011FE127AE74 /* RequestCompression.swift */,
+				02131EBDDA388C9D040E4FB898DB64CE /* RequestInterceptor.swift */,
+				34141E69C74C57B259496A552C56CE25 /* RequestTaskMap.swift */,
+				1D393E1132F4547BF23DB85D8ADBFBAE /* Response.swift */,
+				2CAC72347AE8F160F10075EE845F7325 /* ResponseSerialization.swift */,
+				694F5575101DEF7A1EE355ED4790D9E8 /* Result+Alamofire.swift */,
+				142A85225ECB132D1587D379A331A84E /* RetryPolicy.swift */,
+				FEB165F63E45EB08F4B524F172C71292 /* ServerTrustEvaluation.swift */,
+				0D038CAE6B35A247690160E9D1034A91 /* Session.swift */,
+				714614B12F932327B6ABFC0D20A586E9 /* SessionDelegate.swift */,
+				BC256956DDFB84E44DF2AC5A5AEAEEA8 /* StringEncoding+Alamofire.swift */,
+				7E80B3F20FFBC3F64BF87191BA5C844F /* URLConvertible+URLRequestConvertible.swift */,
+				2D0ED7D35F2C1631EF4D83290043433E /* URLEncodedFormEncoder.swift */,
+				7F29217AE6BB140A430991F4B16C741D /* URLRequest+Alamofire.swift */,
+				791AB6517A2901697F6776A9CF25BA2D /* URLSessionConfiguration+Alamofire.swift */,
+				AA6CA1EA35EE149387E00DE96AEE3AD0 /* Validation.swift */,
+				B37F77B648CA091697FA04C10CCC8CB3 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		49274F9A43E1336D3E06E0C076B47AC3 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				5070C18655A3310DD23A64E748381E96 /* FSCalendar.h */,
+				C6D14926E796ADE9E65142CC0CFFA680 /* FSCalendar.m */,
+				4053E6A413C9362A3D390FC7EF5745F7 /* FSCalendarAppearance.h */,
+				5DA513BC9FDEF289CC7935F29F39D8C4 /* FSCalendarAppearance.m */,
+				6790609488D13A0DD7CB80CA9E9126D8 /* FSCalendarCalculator.h */,
+				AFE99FB7592520A12F6F3A7F0CE1707C /* FSCalendarCalculator.m */,
+				CB4756384C9ACC5C6909543E11CA7AB1 /* FSCalendarCell.h */,
+				50F36FB76E2287A21F16CEF282043765 /* FSCalendarCell.m */,
+				90399AAFA9AA7E61B485559A442A25E3 /* FSCalendarCollectionView.h */,
+				4BFF4332A0617915E1D4FDF66D83BD14 /* FSCalendarCollectionView.m */,
+				8D7F1FF1ED871F259B87A29D0E8A7FF2 /* FSCalendarCollectionViewLayout.h */,
+				467B88A7AEA75CABC2ACBA2D3D2C9913 /* FSCalendarCollectionViewLayout.m */,
+				BC0810E5ACCEA1CE62350B69551FA8A9 /* FSCalendarConstants.h */,
+				EB103CBDBBBC0CE0B25EF2C296904A35 /* FSCalendarConstants.m */,
+				6D441ECCC7827F2B899F5601AD94096C /* FSCalendarDelegationFactory.h */,
+				60A649019C93CE2393BE57D09A8ACAC9 /* FSCalendarDelegationFactory.m */,
+				E052739A1CBC6ABD856C59083DD99F78 /* FSCalendarDelegationProxy.h */,
+				1076ACBE141CCF64FBB4B125F7AAD2EB /* FSCalendarDelegationProxy.m */,
+				369F175C92B62D8EB19FC28278FF5186 /* FSCalendarDynamicHeader.h */,
+				F6506B6FA7AD22ED3A3C681EB7CF4503 /* FSCalendarExtensions.h */,
+				F4F1AB2F2FFDEC66118286A0C8664FF1 /* FSCalendarExtensions.m */,
+				86E640250962870AABF8849153E4932D /* FSCalendarHeaderView.h */,
+				B1F0E640D24F609701EFAA2EC366F4A4 /* FSCalendarHeaderView.m */,
+				18D7619040C860EEF7BE3E94403DD167 /* FSCalendarSeparatorDecorationView.h */,
+				0E38EAB1F1F91CFCF043EA4AFF7943C9 /* FSCalendarSeparatorDecorationView.m */,
+				E5EE673B961D186CFC3A7F684732D3E8 /* FSCalendarStickyHeader.h */,
+				06EBF9059298FCFF83F36FE7EBDB10E3 /* FSCalendarStickyHeader.m */,
+				E57A4E955693DD79D25284DE3A70E458 /* FSCalendarTransitionCoordinator.h */,
+				2F8F6AEE508ACCA38FB55ED45B8CFC20 /* FSCalendarTransitionCoordinator.m */,
+				4EB246A04A595536C696BBA42FC80C85 /* FSCalendarWeekdayView.h */,
+				A176C039F8BBA818E4D43BB1322EFAF4 /* FSCalendarWeekdayView.m */,
+				6A203EDF2746ABE8B71B28E00B9B3FE9 /* Support Files */,
+			);
+			name = FSCalendar;
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		4E52B9787BAE1031D36BE8A186AEA867 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6DACB91CB3949A2A7D0EDC0D27FAD /* Pods-praticeDelegate */,
+				77BE8F0FF1749F116DAC538363C7FB99 /* Pods-praticeDelegate-praticeDelegateUITests */,
+				835DE8AB2EC8FD93188E768E1F2B7CF3 /* Pods-praticeDelegateTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5BF60388D65396C89188F1F3CA677D11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				304B238D23BD8C2A421ABF0BE5352239 /* NaverThirdPartyLogin.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D3DCDA43423AF105A276FA07E3E7442 /* KakaoSDKAuth */ = {
+			isa = PBXGroup;
+			children = (
+				1D24A9746332BADEC6122A55E741DDB4 /* Auth.swift */,
+				9ECA199A521E0684DF9F733DAC9B955F /* AuthApi.swift */,
+				6CAD6B69CED250B1471C01849A1655BA /* AuthApiCommon.swift */,
+				34C715E26F3E9A84F1A12BD1CE384CF0 /* AuthController.swift */,
+				03EBCEF280F3844025ADD7E93F7A1A42 /* AuthRequestAdapter.swift */,
+				348A8D1DF97A947D4A430242D3578543 /* AuthRequestRetrier.swift */,
+				86D741D5F78091823702E6661937D2A0 /* KakaoSDKAuth.h */,
+				C4DFE69C889DF8602F89A048F4D67BCF /* MigrateManager.swift */,
+				9D250BA06A5650BD84803D9A7D71E2B2 /* OAuthToken.swift */,
+				51877E47335EBCB794BDA55FAA5D8516 /* TokenManagable.swift */,
+				86EFDB9F2057A19B89D334F8F77FBC3C /* TokenManager.swift */,
+				FF7742F9F8C78C5EBEBD742B526FE080 /* Support Files */,
+			);
+			name = KakaoSDKAuth;
+			path = KakaoSDKAuth;
+			sourceTree = "<group>";
+		};
+		5E9D5E76428A52A3A055D1E7F0F08638 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5549131FAC80175CE654B1266D4BD1E5 /* Api.swift */,
+				EE848693820AD9237DC24B2CB9A7C82C /* ApiRequestAdapter.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		6A203EDF2746ABE8B71B28E00B9B3FE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE666BA88AF4FD5393EFCD437C8C685 /* FSCalendar.modulemap */,
+				F56717B7CB820E06FE29CA3FC7C257E8 /* FSCalendar-dummy.m */,
+				9A5077D8407828C8D347CE2BBC94B553 /* FSCalendar-Info.plist */,
+				DD2080A3EE311A6DEC6F5B74CDB9F2D5 /* FSCalendar-prefix.pch */,
+				4905CA1D25429FE589354A57E9C6F0D5 /* FSCalendar-umbrella.h */,
+				CF4C8F2108615625E14E88F1309BCB2E /* FSCalendar.debug.xcconfig */,
+				AF58C538748CC955DE4D9D43E457E6C5 /* FSCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+		759CB2D28CF47BC13D9553342063C0A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35DAD4F6CFAB12FAB9B77DB7A3650515 /* KakaoSDKUser.modulemap */,
+				2B4573232379419260EE2E762F1A71BD /* KakaoSDKUser-dummy.m */,
+				9552B9E4995185A8F4DA4BB0C3CD9043 /* KakaoSDKUser-Info.plist */,
+				AFC4836A90FCA20099BAC78D826A4029 /* KakaoSDKUser-prefix.pch */,
+				E8F2582643F1A4FB4E97073804CE9030 /* KakaoSDKUser-umbrella.h */,
+				6E23FE62A9A6BB4410B272CB03B7B131 /* KakaoSDKUser.debug.xcconfig */,
+				4E711265B0F2D44C47BF87970489C0CE /* KakaoSDKUser.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KakaoSDKUser";
+			sourceTree = "<group>";
+		};
+		75A8052BBEDF7074F7F606BB10AD55A5 /* KakaoSDKUser */ = {
+			isa = PBXGroup;
+			children = (
+				2157C8A65A3963298B44E06DDD3A5E30 /* AccessTokenInfo.swift */,
+				1789CDB97A90E9AB90FB4DDFFCA3409E /* KakaoSDKUser.h */,
+				9A67C611F9639B23CABB52497B8F2452 /* Scope.swift */,
+				486333CBDD5C21A13122CA62578DF7ED /* User.swift */,
+				A30A5A20A8F24DFFAD9F45496FF361E4 /* UserApi.swift */,
+				96975335DDDDE69C773FFE84926308BF /* UserServiceTerms.swift */,
+				544BA53A1CF3DF81433BCDB5EF211CD8 /* UserShippingAddresses.swift */,
+				759CB2D28CF47BC13D9553342063C0A3 /* Support Files */,
+			);
+			name = KakaoSDKUser;
+			path = KakaoSDKUser;
+			sourceTree = "<group>";
+		};
+		77BE8F0FF1749F116DAC538363C7FB99 /* Pods-praticeDelegate-praticeDelegateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CD40860EBE8D865C07E522141750082 /* Pods-praticeDelegate-praticeDelegateUITests.modulemap */,
+				51BB6A01B3E30F0AB3831FA9D05B18D9 /* Pods-praticeDelegate-praticeDelegateUITests-acknowledgements.markdown */,
+				13E06AE96838096767352E8285C9D93D /* Pods-praticeDelegate-praticeDelegateUITests-acknowledgements.plist */,
+				2FA19A1459EF51DDB795451644B96EB0 /* Pods-praticeDelegate-praticeDelegateUITests-dummy.m */,
+				E287A9DF831270CE29BCE5DD1E400962 /* Pods-praticeDelegate-praticeDelegateUITests-frameworks.sh */,
+				3498131A10447C5F159D500D382F0EFB /* Pods-praticeDelegate-praticeDelegateUITests-Info.plist */,
+				51D061C7924142D9F0DE33A07FEDAFAC /* Pods-praticeDelegate-praticeDelegateUITests-umbrella.h */,
+				6D3622B675F2A696791D8FC48A26D813 /* Pods-praticeDelegate-praticeDelegateUITests.debug.xcconfig */,
+				A48A556B595E41FED5B012FD797BC2CD /* Pods-praticeDelegate-praticeDelegateUITests.release.xcconfig */,
+			);
+			name = "Pods-praticeDelegate-praticeDelegateUITests";
+			path = "Target Support Files/Pods-praticeDelegate-praticeDelegateUITests";
+			sourceTree = "<group>";
+		};
+		835DE8AB2EC8FD93188E768E1F2B7CF3 /* Pods-praticeDelegateTests */ = {
+			isa = PBXGroup;
+			children = (
+				194A396D892155EF263FF8C519235B8F /* Pods-praticeDelegateTests.modulemap */,
+				ADF2A74A6182D5A0E2C3CA8B0E870B58 /* Pods-praticeDelegateTests-acknowledgements.markdown */,
+				A2C73CF419B9D09CD0297A745E2EFFE0 /* Pods-praticeDelegateTests-acknowledgements.plist */,
+				C2B40EA6E615ABD9147A071B83D47BE3 /* Pods-praticeDelegateTests-dummy.m */,
+				DEF7467B11AA1ECDCAE4B4477BD145BB /* Pods-praticeDelegateTests-Info.plist */,
+				D88CE450504E7A5B1CBCA7F0D1F0CC37 /* Pods-praticeDelegateTests-umbrella.h */,
+				36D6F572E427AAFD709ACF7EF29A7922 /* Pods-praticeDelegateTests.debug.xcconfig */,
+				54866B2D4240865600CFAC63A4B854ED /* Pods-praticeDelegateTests.release.xcconfig */,
+			);
+			name = "Pods-praticeDelegateTests";
+			path = "Target Support Files/Pods-praticeDelegateTests";
+			sourceTree = "<group>";
+		};
+		96F96CCF5B27D7760F9CEA9C9B683899 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CD4354C89C02C87F3DFE634E2960665F /* Array+Utils.swift */,
+				EEA494A24F3A0081F0722CD3D02E2D7F /* AuthErrorInfo.swift */,
+				257404D53C690DB8680E88D3A0917DEF /* Common.swift */,
+				6772276A5F1DBD6D5812507ACDA2FAC0 /* Data+Utils.swift */,
+				6E88CBED33DAA5927D27099924F416E8 /* Date+Utils.swift */,
+				F3500BA68827F73ECB64769AA99C8674 /* DecodingContainer+AnyCollection.swift */,
+				FD7B189EF2F07D7A190AE620F5F26D18 /* Dictionary+Utils.swift */,
+				7534AC7FDA8E5E9B41C9029514ABF014 /* EncodingContainer+AnyCollection.swift */,
+				333F22D68990284FA6675EC12AB216A3 /* ErrorInfo.swift */,
+				2199EF8F3C42AF7A244561DC8906D801 /* KakaoSDKCommon.swift */,
+				DD510BE772A932FDCC0DE3FDAF9A6D42 /* Properties.swift */,
+				42536D27B89343A2134CCFA36398BA8F /* SdkCoder.swift */,
+				9C3CBABCFD5EC9B05CF61B8997895E0F /* SdkCrypto.swift */,
+				4D6A6D9663E72ACEBCD6F818394DB530 /* SdkError.swift */,
+				AC90DDF3DAEEE668FACCA526188885AC /* SdkLog.swift */,
+				AA8D0A900A5D71B3C2FD8FE0B6F7C800 /* SdkUtils.swift */,
+				36A5D172C5C6C8B5B9A656E6F220FA6E /* UIApplication+Utils.swift */,
+				D17256B65B3A9007F88BEEA0B9DEEB60 /* URL+Utils.swift */,
+				12885918085700D913BE8FF137EB34E9 /* Urls.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B37F77B648CA091697FA04C10CCC8CB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C016FF7329339960B8545CBC1CA2AE1F /* Alamofire.modulemap */,
+				E3A17EB091C7E15D2CD4E81623AFEFE9 /* Alamofire-dummy.m */,
+				081087571E7C07D2072F72D5106AF80F /* Alamofire-Info.plist */,
+				F37219E7D3EC5993E0FD975D46161449 /* Alamofire-prefix.pch */,
+				DA08B505498DA5E3332B912C409AC0E4 /* Alamofire-umbrella.h */,
+				E9EC725C36EB64DE9F7A95BEA313E081 /* Alamofire.debug.xcconfig */,
+				17F0BD1640C9E305FE070927861439AD /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C2C23D0E07725E2EEE8416B3FE77388 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8A8BFA1C644BA356FA2A288C82616F4 /* naveridlogin-sdk-ios */ = {
+			isa = PBXGroup;
+			children = (
+				5BF60388D65396C89188F1F3CA677D11 /* Frameworks */,
+				EC2AC10BC7A1A5439A9BEA88863CA979 /* Support Files */,
+			);
+			name = "naveridlogin-sdk-ios";
+			path = "naveridlogin-sdk-ios";
+			sourceTree = "<group>";
+		};
+		CEA6DACB91CB3949A2A7D0EDC0D27FAD /* Pods-praticeDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6F2CFC6971C371F439FD6EE3A068B772 /* Pods-praticeDelegate.modulemap */,
+				B20C647CB0FD0C4E0E5B3E5CF947CC74 /* Pods-praticeDelegate-acknowledgements.markdown */,
+				1C30A7ADEBF956DCE1FFDFFDE4585A62 /* Pods-praticeDelegate-acknowledgements.plist */,
+				6F4F56995027D176E6DAB59CB7E6F7EF /* Pods-praticeDelegate-dummy.m */,
+				2EE026DD8CCD3420D8664C2C3460210E /* Pods-praticeDelegate-frameworks.sh */,
+				0F0FFB413A5C046307E32AB88C326F39 /* Pods-praticeDelegate-Info.plist */,
+				84B00E8BC821CA465B0A544F2C759C1C /* Pods-praticeDelegate-umbrella.h */,
+				3CA94833F7CB81B2D2CB78F82BC6B047 /* Pods-praticeDelegate.debug.xcconfig */,
+				C1F6BCD3FC944F589A478B82E778892A /* Pods-praticeDelegate.release.xcconfig */,
+			);
+			name = "Pods-praticeDelegate";
+			path = "Target Support Files/Pods-praticeDelegate";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E181AF161A347AC31E4914C89CF6A2DA /* Pods */,
+				2118275200E8A9CD25A31BAEECDFB710 /* Products */,
+				4E52B9787BAE1031D36BE8A186AEA867 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E181AF161A347AC31E4914C89CF6A2DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3658777816A736469AE89420CBEF8CB3 /* Alamofire */,
+				49274F9A43E1336D3E06E0C076B47AC3 /* FSCalendar */,
+				5D3DCDA43423AF105A276FA07E3E7442 /* KakaoSDKAuth */,
+				F30E888C665C20369356BE49AA3EC209 /* KakaoSDKCommon */,
+				75A8052BBEDF7074F7F606BB10AD55A5 /* KakaoSDKUser */,
+				C8A8BFA1C644BA356FA2A288C82616F4 /* naveridlogin-sdk-ios */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC2AC10BC7A1A5439A9BEA88863CA979 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D154336023A523D21267A4A3973A35A8 /* naveridlogin-sdk-ios-xcframeworks.sh */,
+				5EA4B49F799108C32967FA7C72F4D4AA /* naveridlogin-sdk-ios.debug.xcconfig */,
+				EF00AFBFC292F1E31FF39BFAABC0B2BF /* naveridlogin-sdk-ios.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/naveridlogin-sdk-ios";
+			sourceTree = "<group>";
+		};
+		F30E888C665C20369356BE49AA3EC209 /* KakaoSDKCommon */ = {
+			isa = PBXGroup;
+			children = (
+				96F96CCF5B27D7760F9CEA9C9B683899 /* Common */,
+				5E9D5E76428A52A3A055D1E7F0F08638 /* Network */,
+				2F9E6552841453A3937CB07D14B33B69 /* Support Files */,
+			);
+			name = KakaoSDKCommon;
+			path = KakaoSDKCommon;
+			sourceTree = "<group>";
+		};
+		FF7742F9F8C78C5EBEBD742B526FE080 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BD380610BE416238E60B41E95FFAA17 /* KakaoSDKAuth.modulemap */,
+				DBFE77C0F5C778DDB4D4CF8C6AB1EB98 /* KakaoSDKAuth-dummy.m */,
+				311C9F8CE8050EB2E06BA450FC1A2DE0 /* KakaoSDKAuth-Info.plist */,
+				4735B26F8C07D66B96D952F3DECB1F65 /* KakaoSDKAuth-prefix.pch */,
+				B1B3FAD47611499328AF41446DAAAF5E /* KakaoSDKAuth-umbrella.h */,
+				6CAD3BE91D4D0FF315F4A40A80D663AE /* KakaoSDKAuth.debug.xcconfig */,
+				55748A74CEA49CC557C29EA767FB0885 /* KakaoSDKAuth.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KakaoSDKAuth";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		142D2D69CF6BE561256C9195A4AF3F56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF5DFF3D56CFC383593A916639B14C0 /* KakaoSDKAuth.h in Headers */,
+				BBB4BCD9ECCA6DB8F560F7A7BAE720F2 /* KakaoSDKAuth-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4751F144076CDA49322AF1EC7A182C35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1ACFAEC8B0F1F853CE40AF27EDFC7D /* Pods-praticeDelegate-praticeDelegateUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564741ED219FD79A766EA261089C3D6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21569DF98D87C323F6A189436738823D /* Pods-praticeDelegateTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB348C8C01FFE1DC95CDA6239C118EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEE12246C4A8F2C2508DC9B4B1AC58C /* Pods-praticeDelegate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F0146424562AFD62835819309D0937 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B315F31F8896E89629DE93D89AEA794B /* KakaoSDKUser.h in Headers */,
+				1DF563ACA1B087290224AA1BF3A523EB /* KakaoSDKUser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D940F17C4F1BB81BF99BBA680FE81972 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B9AF01196677990B84E2DE86921186 /* KakaoSDKCommon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED12AA7015568FEE3FAA009FC97DAAD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F038D81F7ABAA15CF03246AD4BF334F7 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9900830C8DCDB380DFE67D911EBA65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A550F7F30921E5FFE67A755D67DA7683 /* FSCalendar.h in Headers */,
+				1FF421C714EDBE044E5EEB1E0C6A8571 /* FSCalendar-umbrella.h in Headers */,
+				BC0B2FA367074EAF985420BE965303D3 /* FSCalendarAppearance.h in Headers */,
+				62FFC4B2AA010A5445E5D9D6294C62B6 /* FSCalendarCalculator.h in Headers */,
+				003475471715C79534A569A1DE745889 /* FSCalendarCell.h in Headers */,
+				6DCF6F2A00DA4D32535EB01AE34F3563 /* FSCalendarCollectionView.h in Headers */,
+				4643DA364A3E80706B89D53043890B4D /* FSCalendarCollectionViewLayout.h in Headers */,
+				752DBFCDD74504EEA558FCD691F6D548 /* FSCalendarConstants.h in Headers */,
+				C17CF6C18DAC9307799F1D7972965EDF /* FSCalendarDelegationFactory.h in Headers */,
+				39F986157716D5214013E395BDFA237A /* FSCalendarDelegationProxy.h in Headers */,
+				4EC9E26EE87569C1B51B6DFF20700772 /* FSCalendarDynamicHeader.h in Headers */,
+				5F847123FA3D224722CE24317DCEF968 /* FSCalendarExtensions.h in Headers */,
+				0CCBB4361672C8994784F0CD9AFC876D /* FSCalendarHeaderView.h in Headers */,
+				1152D5AAA7732A77B80CF0E33A68351C /* FSCalendarSeparatorDecorationView.h in Headers */,
+				BC1A04CE0A9851F3C003ECD156BE95AC /* FSCalendarStickyHeader.h in Headers */,
+				74340052A3CD15A02A87D8D651CB8AB8 /* FSCalendarTransitionCoordinator.h in Headers */,
+				517DF7507FDB12DBF9BA9D1536EDCC4F /* FSCalendarWeekdayView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0056ECF056A0C0B5FFFC4027E55AE77B /* Pods-praticeDelegate-praticeDelegateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5837457C7E3C24AF8F67C2BA23A02BF1 /* Build configuration list for PBXNativeTarget "Pods-praticeDelegate-praticeDelegateUITests" */;
+			buildPhases = (
+				4751F144076CDA49322AF1EC7A182C35 /* Headers */,
+				764D13EB1393C479F17E2CAFF00213D6 /* Sources */,
+				3CB76C39645E92F9155C35505568F3C1 /* Frameworks */,
+				2E3B99B4988A15925A45E749CFD5FF5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008126AC272693EC75F230378C9169DF /* PBXTargetDependency */,
+				AA2ADD40895F32CA17E87128D4B2928C /* PBXTargetDependency */,
+				A94B410C5230942FF63F54079DD3CAB8 /* PBXTargetDependency */,
+				E6C185816E416356CC64299370207EF2 /* PBXTargetDependency */,
+				ACB4BEF54BC0EE4189BC030E702C80F6 /* PBXTargetDependency */,
+				B9CC803E092F24BD515AC986809B30D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-praticeDelegate-praticeDelegateUITests";
+			productName = Pods_praticeDelegate_praticeDelegateUITests;
+			productReference = 1F128D6A82223852307293579E604128 /* Pods-praticeDelegate-praticeDelegateUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0A80925871C91B9D807A479DC9E1C8 /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				FF9900830C8DCDB380DFE67D911EBA65 /* Headers */,
+				0850BAB6F37BE1286C748B584A006CC9 /* Sources */,
+				8243A64755C7A548C64DC56F66C1347B /* Frameworks */,
+				6FDC92F7E5D72E9561F44586F35A4DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 95209B8BB966524BC76543F99C75F5FE /* FSCalendar */;
+			productType = "com.apple.product-type.framework";
+		};
+		205D6EF1B8DCC8419E2F53266F6ADCDC /* KakaoSDKCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821C152C1083BBDF0F996E376DCAB6D3 /* Build configuration list for PBXNativeTarget "KakaoSDKCommon" */;
+			buildPhases = (
+				D940F17C4F1BB81BF99BBA680FE81972 /* Headers */,
+				F96E591F228E30E43B6240E3A2A85535 /* Sources */,
+				86AD3A9A9243483C6D785D698FD2E5DB /* Frameworks */,
+				DB56F8A7F2E42D8FF9280D379AFF6715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3DAE0FC89063044DA7D834BE25BDEC6 /* PBXTargetDependency */,
+			);
+			name = KakaoSDKCommon;
+			productName = KakaoSDKCommon;
+			productReference = 25BDA6E824AD6CBD857358A023C694AD /* KakaoSDKCommon */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F7BF367078951B6E8BC95B3DA89967A /* KakaoSDKUser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40DE0A760718B9975B30412381C4C69 /* Build configuration list for PBXNativeTarget "KakaoSDKUser" */;
+			buildPhases = (
+				C6F0146424562AFD62835819309D0937 /* Headers */,
+				411E9AFBFC2C1AD16CA1EB7103E4F5CB /* Sources */,
+				E3FEF2F2B5A59C3B7AECDF290252B96D /* Frameworks */,
+				D213ED1227320B086D9E80B15C44EB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC933BED39462F2571A5C60D16F3548A /* PBXTargetDependency */,
+			);
+			name = KakaoSDKUser;
+			productName = KakaoSDKUser;
+			productReference = 1353D6A467F43A6A3EA21D310BD35A31 /* KakaoSDKUser */;
+			productType = "com.apple.product-type.framework";
+		};
+		83CA882AD877ED964BDF66235E416BC1 /* KakaoSDKAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B9E99EDB49F2901F9A8E7E50343C2E /* Build configuration list for PBXNativeTarget "KakaoSDKAuth" */;
+			buildPhases = (
+				142D2D69CF6BE561256C9195A4AF3F56 /* Headers */,
+				11316E4EF0CE3FC56055A428F8BF2D64 /* Sources */,
+				294DA0610EDBAF0F092C221434B602D7 /* Frameworks */,
+				A02986E31481B2FEAF8D2915B7A50B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A52302C157348AE0B84DEC39D6499FB /* PBXTargetDependency */,
+			);
+			name = KakaoSDKAuth;
+			productName = KakaoSDKAuth;
+			productReference = 9F453801F27585052F413F613C847DB2 /* KakaoSDKAuth */;
+			productType = "com.apple.product-type.framework";
+		};
+		B682A2F45ED57DE1BE6879B38B6BA6F4 /* Pods-praticeDelegateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B97CAB5E4AB2342A003CD8B0DB95D27 /* Build configuration list for PBXNativeTarget "Pods-praticeDelegateTests" */;
+			buildPhases = (
+				564741ED219FD79A766EA261089C3D6B /* Headers */,
+				A15238589FFB0F6572FFFB885BE0DB14 /* Sources */,
+				8DF7DB8AFA7B26BB829FBBE5F5B953E4 /* Frameworks */,
+				639559D15EC8D60BAFE439D3DFBBAE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F01D7A37CE7EF6F093B42D075B59F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-praticeDelegateTests";
+			productName = Pods_praticeDelegateTests;
+			productReference = 3BD4D5A244D6F0E0DA274E47BCDF2642 /* Pods-praticeDelegateTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7761A54AFA2998F27E0BC2FACC2EB53 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				ED12AA7015568FEE3FAA009FC97DAAD5 /* Headers */,
+				277C3B3F937C6D40D2B777A164FAB89D /* Sources */,
+				5BF6E64D3157435E5797A5278584A4DC /* Frameworks */,
+				565FD2058706F22D2347B30C65280F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3099061AA5A8F3149E8A9721610B992 /* Pods-praticeDelegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728174BEB32D38A17868CEFC468CC444 /* Build configuration list for PBXNativeTarget "Pods-praticeDelegate" */;
+			buildPhases = (
+				ACB348C8C01FFE1DC95CDA6239C118EA /* Headers */,
+				820F9CD692BF5BC733C9B020F2927DCA /* Sources */,
+				BF6945A862155FDCFEF9DD493A66CCFA /* Frameworks */,
+				9E18A2157A61B413D87BACE4CFD85305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725936FEF9C76B1C3FA3D2BEFEA951E1 /* PBXTargetDependency */,
+				68E2C674F4C566B82CB68479A05AFB28 /* PBXTargetDependency */,
+				229F7B576EB7DF40E9D882C124C72368 /* PBXTargetDependency */,
+				3B8D22845A481BEDA57569DC76719154 /* PBXTargetDependency */,
+				C2CDE02EF0179897AA05D4A0F52A31EA /* PBXTargetDependency */,
+				E94C998E4856EC3C6EB1A8BCEB62DB75 /* PBXTargetDependency */,
+			);
+			name = "Pods-praticeDelegate";
+			productName = Pods_praticeDelegate;
+			productReference = 11DE1F18306FBB78223874835DBD3B0C /* Pods-praticeDelegate */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2118275200E8A9CD25A31BAEECDFB710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */,
+				83CA882AD877ED964BDF66235E416BC1 /* KakaoSDKAuth */,
+				205D6EF1B8DCC8419E2F53266F6ADCDC /* KakaoSDKCommon */,
+				3F7BF367078951B6E8BC95B3DA89967A /* KakaoSDKUser */,
+				3516E9D4735D155BC036A4DB393966FC /* naveridlogin-sdk-ios */,
+				F3099061AA5A8F3149E8A9721610B992 /* Pods-praticeDelegate */,
+				0056ECF056A0C0B5FFFC4027E55AE77B /* Pods-praticeDelegate-praticeDelegateUITests */,
+				B682A2F45ED57DE1BE6879B38B6BA6F4 /* Pods-praticeDelegateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3B99B4988A15925A45E749CFD5FF5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565FD2058706F22D2347B30C65280F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639559D15EC8D60BAFE439D3DFBBAE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDC92F7E5D72E9561F44586F35A4DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E18A2157A61B413D87BACE4CFD85305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02986E31481B2FEAF8D2915B7A50B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D213ED1227320B086D9E80B15C44EB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB56F8A7F2E42D8FF9280D379AFF6715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E05BCF0D92F31389F4CCB961DA341B4 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/naveridlogin-sdk-ios/naveridlogin-sdk-ios-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/naveridlogin-sdk-ios/naveridlogin-sdk-ios-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/naveridlogin-sdk-ios/naveridlogin-sdk-ios-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0850BAB6F37BE1286C748B584A006CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C20C67D0D5A1C73A0A057268A719C1 /* FSCalendar.m in Sources */,
+				3E4E56584545A9F057D6A39565EEBE81 /* FSCalendar-dummy.m in Sources */,
+				F3F18A1FEC8212A61301637E40558A13 /* FSCalendarAppearance.m in Sources */,
+				F1B9720240D5609A1DE32B8350FE0B5B /* FSCalendarCalculator.m in Sources */,
+				E11220C77D9BB217D63867401FF624F6 /* FSCalendarCell.m in Sources */,
+				7E98902CA894CFE1F54E7934B24B0B37 /* FSCalendarCollectionView.m in Sources */,
+				CE132491B81D44BB6B692C3F72FBC980 /* FSCalendarCollectionViewLayout.m in Sources */,
+				8D5833379E9F51BFEEA066AA1C4A25A0 /* FSCalendarConstants.m in Sources */,
+				CF10A50704D5CF6F07D5949BA4AB3EAB /* FSCalendarDelegationFactory.m in Sources */,
+				E53DD07DFCDD2241779DBAAE71E77032 /* FSCalendarDelegationProxy.m in Sources */,
+				C7ACD835AAE2936FB6B623084612825D /* FSCalendarExtensions.m in Sources */,
+				7FDEAD728DF7397DAEE4237F07AD5A70 /* FSCalendarHeaderView.m in Sources */,
+				6040741383F6F8F6979D6C547230C132 /* FSCalendarSeparatorDecorationView.m in Sources */,
+				24E5EE988A4BD7C15B55708C6D88AE04 /* FSCalendarStickyHeader.m in Sources */,
+				6201BB85A0AAF8FA6C4771308917BAB2 /* FSCalendarTransitionCoordinator.m in Sources */,
+				3960120DF8907DA574823ACE7ED96076 /* FSCalendarWeekdayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11316E4EF0CE3FC56055A428F8BF2D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF1278FE993FF839CD35118F7B7DC91 /* Auth.swift in Sources */,
+				656E01B17E8BA279C882ABA40E8BC699 /* AuthApi.swift in Sources */,
+				67BFFAB4BEB49A7BA498A15BD0B9CE00 /* AuthApiCommon.swift in Sources */,
+				0ACBA2118A43794391B926DB8EC29823 /* AuthController.swift in Sources */,
+				471965CBD5F81C3DDDABD55B76B7AA38 /* AuthRequestAdapter.swift in Sources */,
+				4EB20057CC576E222A7A0A1DDA259791 /* AuthRequestRetrier.swift in Sources */,
+				98E9D77B004C321A6AD483F39AF79D8B /* KakaoSDKAuth-dummy.m in Sources */,
+				6200FBADC796F65545C891DBB74291CF /* MigrateManager.swift in Sources */,
+				36C0E39CF379DA44D355801FBC9C6357 /* OAuthToken.swift in Sources */,
+				302DA53A8585199E6CA7D91928E0F825 /* TokenManagable.swift in Sources */,
+				76C48CC2DD91C40FAECE01F345ED6F02 /* TokenManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277C3B3F937C6D40D2B777A164FAB89D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320C0D7A88AA812EFB20016BA1F5D7AE /* AFError.swift in Sources */,
+				81E6A0FF7F286008345ECFA3A2103FA8 /* Alamofire.swift in Sources */,
+				D09FBBADAF7C5C757AA5AB5DFE54BD25 /* Alamofire-dummy.m in Sources */,
+				F2415AE8678DE2698B7AD7D88B1A5C0F /* AlamofireExtended.swift in Sources */,
+				197457852FC83E905248660B0F930452 /* AuthenticationInterceptor.swift in Sources */,
+				04A8430BFC619C34E5F4D3878D094380 /* CachedResponseHandler.swift in Sources */,
+				385BC4B250B6A6DB8AAAEA77D5B7A46F /* Combine.swift in Sources */,
+				78B1DD1219182494A6AFAD26AAB20AA6 /* Concurrency.swift in Sources */,
+				8E698F134A953250D5834C8B83CDAD34 /* DispatchQueue+Alamofire.swift in Sources */,
+				82FD97FBBEFE51E2D3B434AF4954FC93 /* EventMonitor.swift in Sources */,
+				529173B31EFCD3D199E79866AFBEC86C /* HTTPHeaders.swift in Sources */,
+				F66CC47AD425C8D57BD149AFD09C2AFE /* HTTPMethod.swift in Sources */,
+				737747B9A98257DB58112C3A23686669 /* MultipartFormData.swift in Sources */,
+				732C29255F73EF3D83D49BD4F8FEAA8F /* MultipartUpload.swift in Sources */,
+				BAB17A1C6CAD14B3788973EAF8466C93 /* NetworkReachabilityManager.swift in Sources */,
+				3A59D8FBAF9A54906E3644AC80465AFB /* Notifications.swift in Sources */,
+				7D64BC3E6CAA4AB54EAC0AAADE93F578 /* OperationQueue+Alamofire.swift in Sources */,
+				B17D933C8F8BC6A4F91AA620D7D7A870 /* ParameterEncoder.swift in Sources */,
+				482B74C0548970BB9C095E2D8530E421 /* ParameterEncoding.swift in Sources */,
+				079F0820555C5B86C9FBD5EC6344137F /* Protected.swift in Sources */,
+				ECE6F23823454A8FDB3F97CE1A7CD182 /* RedirectHandler.swift in Sources */,
+				5B92A66A66BD639411C3D839A0F87B0C /* Request.swift in Sources */,
+				A523488C60BF961290D0B1ABB9ADACEC /* RequestCompression.swift in Sources */,
+				1AFD57838680DF58184FF94D14C7F3FF /* RequestInterceptor.swift in Sources */,
+				ECF2F956B37A4C28B228BC291A57AD6E /* RequestTaskMap.swift in Sources */,
+				AA721ECC2B36AFB7D9FE70C83E6D63F9 /* Response.swift in Sources */,
+				3FA127A261BB563409868A0DC21807B2 /* ResponseSerialization.swift in Sources */,
+				F6E94E8EE1CE35F49B9091BE8748587B /* Result+Alamofire.swift in Sources */,
+				643A7AFFB7AEB70B2B9B7E0926055023 /* RetryPolicy.swift in Sources */,
+				77AB6AF4BFC6DE016DA7C057B5799C84 /* ServerTrustEvaluation.swift in Sources */,
+				282FCD4EA8B05830E9108690B8CD336B /* Session.swift in Sources */,
+				E6251F02EE12804D1B66AE32E716E664 /* SessionDelegate.swift in Sources */,
+				C04739CBCEE445B66192BFA708655EDF /* StringEncoding+Alamofire.swift in Sources */,
+				D0560E8E2E5EB407B5D8E0381BF453FA /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				C8269B42DED12AB1F275648D0BD32E45 /* URLEncodedFormEncoder.swift in Sources */,
+				11CCD832BD537718892C6A216A38490A /* URLRequest+Alamofire.swift in Sources */,
+				67B10FEAA3B7E5387D20E76B1085E94D /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				D368E6F70C5E6998548A72E65F92432D /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411E9AFBFC2C1AD16CA1EB7103E4F5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441D197780AB5046661B005C3F2503D3 /* AccessTokenInfo.swift in Sources */,
+				1ADE9E4DA732DA450BCAEA3B7E887D0A /* KakaoSDKUser-dummy.m in Sources */,
+				D25882A80639C4217B21A7C4ECA3ADBE /* Scope.swift in Sources */,
+				0C777D87DF6A0B23A84290B13DCCCD23 /* User.swift in Sources */,
+				6C5EA1EE680E94E87A7B60C2D41FE610 /* UserApi.swift in Sources */,
+				94C366CA32DA24C4A7C8754BBF619AB5 /* UserServiceTerms.swift in Sources */,
+				887D9AEC3D86A998A737F30A785AF4B3 /* UserShippingAddresses.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764D13EB1393C479F17E2CAFF00213D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9124EF242A6C0D14C353F1AFA5B9930C /* Pods-praticeDelegate-praticeDelegateUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820F9CD692BF5BC733C9B020F2927DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D053D556FBFE84B60B43AE5B3CF9731C /* Pods-praticeDelegate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15238589FFB0F6572FFFB885BE0DB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F9B324BF45223108B846D81DACF9F0 /* Pods-praticeDelegateTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96E591F228E30E43B6240E3A2A85535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C7010ADE83D1BD8DBFA2DF70B2BD0DC /* Api.swift in Sources */,
+				DD769EA965E96A3783496F706CABA41F /* ApiRequestAdapter.swift in Sources */,
+				C56CDC4ED34EFF070E3408A5B83DA2CD /* Array+Utils.swift in Sources */,
+				0DAE5DE93EDFD23A42E1F2A8EE6C10DE /* AuthErrorInfo.swift in Sources */,
+				B5E3C70B533C305F634825CC0DDE4960 /* Common.swift in Sources */,
+				31BA4495E38F30416B40AC65A19F966E /* Data+Utils.swift in Sources */,
+				6D30AF40291434679C3C9E1FCDC9AB35 /* Date+Utils.swift in Sources */,
+				0F55982E655FE4BFC544BA292C271469 /* DecodingContainer+AnyCollection.swift in Sources */,
+				8C5E6116A763DD791AF307CBBDFEEBFA /* Dictionary+Utils.swift in Sources */,
+				EE7F8A38EBEA02809600A3ABCEEC1C90 /* EncodingContainer+AnyCollection.swift in Sources */,
+				9F33A9DC7EB048A0461AB16389352009 /* ErrorInfo.swift in Sources */,
+				6E6A9D24C839AAFACB4493F1CF0ECDF6 /* KakaoSDKCommon.swift in Sources */,
+				D39C1AF19DB9D342895D76A9B0013611 /* KakaoSDKCommon-dummy.m in Sources */,
+				8CDFAFAFB004C1ED565C9DF2BA5CA2D7 /* Properties.swift in Sources */,
+				7E4FD78731E739AF275A8DE75F1D6D14 /* SdkCoder.swift in Sources */,
+				6626319994CC83940542EF5433B7BFD4 /* SdkCrypto.swift in Sources */,
+				DFA984E296321B0C7A219FFA68221225 /* SdkError.swift in Sources */,
+				88D48CC63AFA5888E125350643FEC36B /* SdkLog.swift in Sources */,
+				46AF210707E65039D97550D91E2ED720 /* SdkUtils.swift in Sources */,
+				C3AC4CEBA507FBE5C349783505968A89 /* UIApplication+Utils.swift in Sources */,
+				A331FF80F4EC6BDA2C2FA2946DE8E2F5 /* URL+Utils.swift in Sources */,
+				C3BE0B2BE530BEE564E38AB430C8BF75 /* Urls.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		008126AC272693EC75F230378C9169DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 9FFA3F90A558D516BE68E0A5804D0CAF /* PBXContainerItemProxy */;
+		};
+		229F7B576EB7DF40E9D882C124C72368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoSDKAuth;
+			target = 83CA882AD877ED964BDF66235E416BC1 /* KakaoSDKAuth */;
+			targetProxy = A259E8C00F987BD513FD696C20891284 /* PBXContainerItemProxy */;
+		};
+		3B8D22845A481BEDA57569DC76719154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoSDKCommon;
+			target = 205D6EF1B8DCC8419E2F53266F6ADCDC /* KakaoSDKCommon */;
+			targetProxy = 2FE6AC64F2C92E6C71A610503AE2AD35 /* PBXContainerItemProxy */;
+		};
+		62F01D7A37CE7EF6F093B42D075B59F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-praticeDelegate";
+			target = F3099061AA5A8F3149E8A9721610B992 /* Pods-praticeDelegate */;
+			targetProxy = 274745DF23BCCE3D71B8F8A7DAB20F71 /* PBXContainerItemProxy */;
+		};
+		68E2C674F4C566B82CB68479A05AFB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = 13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */;
+			targetProxy = AE0942ED4BFAA180C108BD3CD38780B0 /* PBXContainerItemProxy */;
+		};
+		725936FEF9C76B1C3FA3D2BEFEA951E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 88237FDD8969EE707C151C6931ECE3CB /* PBXContainerItemProxy */;
+		};
+		8A52302C157348AE0B84DEC39D6499FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoSDKCommon;
+			target = 205D6EF1B8DCC8419E2F53266F6ADCDC /* KakaoSDKCommon */;
+			targetProxy = 46479CE2C7989A779FA0E414E177DE05 /* PBXContainerItemProxy */;
+		};
+		A94B410C5230942FF63F54079DD3CAB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoSDKAuth;
+			target = 83CA882AD877ED964BDF66235E416BC1 /* KakaoSDKAuth */;
+			targetProxy = 70DF38E723903564123D56E804002604 /* PBXContainerItemProxy */;
+		};
+		AA2ADD40895F32CA17E87128D4B2928C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = 13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */;
+			targetProxy = B3782FED0D9EA3A8E882C4F420CA05F9 /* PBXContainerItemProxy */;
+		};
+		ACB4BEF54BC0EE4189BC030E702C80F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoSDKUser;
+			target = 3F7BF367078951B6E8BC95B3DA89967A /* KakaoSDKUser */;
+			targetProxy = CA061D2B36D9A49AB5A5B1851029390C /* PBXContainerItemProxy */;
+		};
+		B3DAE0FC89063044DA7D834BE25BDEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 2FF2F8D9721FFFB9B864AD5E7B3F74AD /* PBXContainerItemProxy */;
+		};
+		B9CC803E092F24BD515AC986809B30D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "naveridlogin-sdk-ios";
+			target = 3516E9D4735D155BC036A4DB393966FC /* naveridlogin-sdk-ios */;
+			targetProxy = D23258C52E180644B9D961B960E3CA3B /* PBXContainerItemProxy */;
+		};
+		C2CDE02EF0179897AA05D4A0F52A31EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoSDKUser;
+			target = 3F7BF367078951B6E8BC95B3DA89967A /* KakaoSDKUser */;
+			targetProxy = FB2FDD0C77F8F81F444CC50487AF94B4 /* PBXContainerItemProxy */;
+		};
+		E6C185816E416356CC64299370207EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoSDKCommon;
+			target = 205D6EF1B8DCC8419E2F53266F6ADCDC /* KakaoSDKCommon */;
+			targetProxy = 6786CAE3E3F176EE4D604DF548A9568D /* PBXContainerItemProxy */;
+		};
+		E94C998E4856EC3C6EB1A8BCEB62DB75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "naveridlogin-sdk-ios";
+			target = 3516E9D4735D155BC036A4DB393966FC /* naveridlogin-sdk-ios */;
+			targetProxy = 07E4F29902DD9DB23467117316164E46 /* PBXContainerItemProxy */;
+		};
+		FC933BED39462F2571A5C60D16F3548A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoSDKAuth;
+			target = 83CA882AD877ED964BDF66235E416BC1 /* KakaoSDKAuth */;
+			targetProxy = 31F924D84018583098F4E073EEF4F53D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		211AB1645895165155209EAB32C9C294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3622B675F2A696791D8FC48A26D813 /* Pods-praticeDelegate-praticeDelegateUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-praticeDelegate-praticeDelegateUITests/Pods-praticeDelegate-praticeDelegateUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-praticeDelegate-praticeDelegateUITests/Pods-praticeDelegate-praticeDelegateUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		35613D0A5F350911AE6E907FDFC836E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA4B49F799108C32967FA7C72F4D4AA /* naveridlogin-sdk-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38A2362C45BE04B2A6B7D420A156CE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CAD3BE91D4D0FF315F4A40A80D663AE /* KakaoSDKAuth.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth.modulemap";
+				PRODUCT_MODULE_NAME = KakaoSDKAuth;
+				PRODUCT_NAME = KakaoSDKAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D407B145928111C5C9914BF0239FB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D6F572E427AAFD709ACF7EF29A7922 /* Pods-praticeDelegateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-praticeDelegateTests/Pods-praticeDelegateTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-praticeDelegateTests/Pods-praticeDelegateTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DAFE9DABD4607E63858AE607C6AF073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFAC38E998E83CE9A07C44577D544FB9 /* KakaoSDKCommon.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon.modulemap";
+				PRODUCT_MODULE_NAME = KakaoSDKCommon;
+				PRODUCT_NAME = KakaoSDKCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73FBC83DA060410357FD0C30D352B208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4C8F2108615625E14E88F1309BCB2E /* FSCalendar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		768846D27ACEFD82711658787FCAC0B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF00AFBFC292F1E31FF39BFAABC0B2BF /* naveridlogin-sdk-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BE1A947CD75E853A47B140903AC20C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55748A74CEA49CC557C29EA767FB0885 /* KakaoSDKAuth.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth.modulemap";
+				PRODUCT_MODULE_NAME = KakaoSDKAuth;
+				PRODUCT_NAME = KakaoSDKAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		98181CA478E33E5B574C02C5E5232CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E711265B0F2D44C47BF87970489C0CE /* KakaoSDKUser.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKUser/KakaoSDKUser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KakaoSDKUser/KakaoSDKUser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KakaoSDKUser/KakaoSDKUser.modulemap";
+				PRODUCT_MODULE_NAME = KakaoSDKUser;
+				PRODUCT_NAME = KakaoSDKUser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99CF42517F9FB9671A69245D2A5747FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E23FE62A9A6BB4410B272CB03B7B131 /* KakaoSDKUser.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKUser/KakaoSDKUser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KakaoSDKUser/KakaoSDKUser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KakaoSDKUser/KakaoSDKUser.modulemap";
+				PRODUCT_MODULE_NAME = KakaoSDKUser;
+				PRODUCT_NAME = KakaoSDKUser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AD3C431F44F4FB4A07E1340B6F85825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48A556B595E41FED5B012FD797BC2CD /* Pods-praticeDelegate-praticeDelegateUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-praticeDelegate-praticeDelegateUITests/Pods-praticeDelegate-praticeDelegateUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-praticeDelegate-praticeDelegateUITests/Pods-praticeDelegate-praticeDelegateUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A160472351B46C565056074E8EAAC9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF58C538748CC955DE4D9D43E457E6C5 /* FSCalendar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7D9E7CD650F798EC835C67DACFEBC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EC725C36EB64DE9F7A95BEA313E081 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3792018DDE18041B85A39280B2259B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA94833F7CB81B2D2CB78F82BC6B047 /* Pods-praticeDelegate.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-praticeDelegate/Pods-praticeDelegate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-praticeDelegate/Pods-praticeDelegate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAC67360ADDCE8ABDE2DDDC9DBBD137D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FD38855FE95B2028D5BF20913568F5 /* KakaoSDKCommon.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon.modulemap";
+				PRODUCT_MODULE_NAME = KakaoSDKCommon;
+				PRODUCT_NAME = KakaoSDKCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6C01BFCB02BF5558DA7FE1A5B65E4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54866B2D4240865600CFAC63A4B854ED /* Pods-praticeDelegateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-praticeDelegateTests/Pods-praticeDelegateTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-praticeDelegateTests/Pods-praticeDelegateTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5F3306F2C09AB4B623C805497E28D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F0BD1640C9E305FE070927861439AD /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCE70E90C84FA2B774AFECC4B1FEC37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F6BCD3FC944F589A478B82E778892A /* Pods-praticeDelegate.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-praticeDelegate/Pods-praticeDelegate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-praticeDelegate/Pods-praticeDelegate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B9E99EDB49F2901F9A8E7E50343C2E /* Build configuration list for PBXNativeTarget "KakaoSDKAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A2362C45BE04B2A6B7D420A156CE78 /* Debug */,
+				7BE1A947CD75E853A47B140903AC20C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B0A80925871C91B9D807A479DC9E1C8 /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73FBC83DA060410357FD0C30D352B208 /* Debug */,
+				A160472351B46C565056074E8EAAC9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B97CAB5E4AB2342A003CD8B0DB95D27 /* Build configuration list for PBXNativeTarget "Pods-praticeDelegateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D407B145928111C5C9914BF0239FB81 /* Debug */,
+				D6C01BFCB02BF5558DA7FE1A5B65E4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5837457C7E3C24AF8F67C2BA23A02BF1 /* Build configuration list for PBXNativeTarget "Pods-praticeDelegate-praticeDelegateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211AB1645895165155209EAB32C9C294 /* Debug */,
+				9AD3C431F44F4FB4A07E1340B6F85825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728174BEB32D38A17868CEFC468CC444 /* Build configuration list for PBXNativeTarget "Pods-praticeDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3792018DDE18041B85A39280B2259B3 /* Debug */,
+				FCE70E90C84FA2B774AFECC4B1FEC37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75CE31157FEFB4EACB18011E2D25C61C /* Build configuration list for PBXAggregateTarget "naveridlogin-sdk-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35613D0A5F350911AE6E907FDFC836E1 /* Debug */,
+				768846D27ACEFD82711658787FCAC0B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821C152C1083BBDF0F996E376DCAB6D3 /* Build configuration list for PBXNativeTarget "KakaoSDKCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC67360ADDCE8ABDE2DDDC9DBBD137D /* Debug */,
+				6DAFE9DABD4607E63858AE607C6AF073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40DE0A760718B9975B30412381C4C69 /* Build configuration list for PBXNativeTarget "KakaoSDKUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CF42517F9FB9671A69245D2A5747FD /* Debug */,
+				98181CA478E33E5B574C02C5E5232CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7761A54AFA2998F27E0BC2FACC2EB53 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D9E7CD650F798EC835C67DACFEBC4F /* Debug */,
+				F5F3306F2C09AB4B623C805497E28D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
