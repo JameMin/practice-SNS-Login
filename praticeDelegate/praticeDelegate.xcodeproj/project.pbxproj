@@ -33,6 +33,7 @@
 		8AAFC2252AA6EBCD00BF161E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAFC2232AA6EBCD00BF161E /* LaunchScreen.storyboard */; };
 		8AAFC2492AA6EEB400BF161E /* sampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFC2482AA6EEB400BF161E /* sampleViewController.swift */; };
 		8AAFC24B2AA70FAA00BF161E /* calendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFC24A2AA70FAA00BF161E /* calendarViewController.swift */; };
+		8AD373F62AAEAEBE00B1EC82 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8AD373F52AAEAEBE00B1EC82 /* PromiseKit */; };
 		9E65E2FDA17DEE7EE8A32E48 /* Pods_praticeDelegateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F87D76869230E8532CA63DD /* Pods_praticeDelegateTests.framework */; };
 		D978187382AED0E8B2E6EB78 /* Pods_praticeDelegate_praticeDelegateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E174B1460A945F31E5E06D0 /* Pods_praticeDelegate_praticeDelegateUITests.framework */; };
 /* End PBXBuildFile section */
@@ -93,6 +94,7 @@
 				8A6C694C2AAAF00100C42EC4 /* FirebaseAnalytics in Frameworks */,
 				8A6C69562AAAF00100C42EC4 /* FirebaseAppDistribution-Beta in Frameworks */,
 				8A4250742AA9BC1C0086896B /* GoogleSignInSwift in Frameworks */,
+				8AD373F62AAEAEBE00B1EC82 /* PromiseKit in Frameworks */,
 				8A6C69542AAAF00100C42EC4 /* FirebaseAppCheck in Frameworks */,
 				8A6C69522AAAF00100C42EC4 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				8A6C69502AAAF00100C42EC4 /* FirebaseAnalyticsSwift in Frameworks */,
@@ -226,6 +228,7 @@
 				8A6C69512AAAF00100C42EC4 /* FirebaseAnalyticsWithoutAdIdSupport */,
 				8A6C69532AAAF00100C42EC4 /* FirebaseAppCheck */,
 				8A6C69552AAAF00100C42EC4 /* FirebaseAppDistribution-Beta */,
+				8AD373F52AAEAEBE00B1EC82 /* PromiseKit */,
 			);
 			productName = praticeDelegate;
 			productReference = 8AAFC2152AA6EBCB00BF161E /* praticeDelegate.app */;
@@ -308,6 +311,7 @@
 				8A42506C2AA9A0650086896B /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				8A4250702AA9BC1C0086896B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				8A6C694A2AAAF00100C42EC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8AD373F42AAEAEBE00B1EC82 /* XCRemoteSwiftPackageReference "PromiseKit" */,
 			);
 			productRefGroup = 8AAFC2162AA6EBCB00BF161E /* Products */;
 			projectDirPath = "";
@@ -853,6 +857,14 @@
 				minimumVersion = 10.0.0;
 			};
 		};
+		8AD373F42AAEAEBE00B1EC82 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -915,6 +927,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8A6C694A2AAAF00100C42EC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseAppDistribution-Beta";
+		};
+		8AD373F52AAEAEBE00B1EC82 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AD373F42AAEAEBE00B1EC82 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

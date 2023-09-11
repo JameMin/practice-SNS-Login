@@ -64,53 +64,20 @@
                   endingLineNumber = "326"
                   offsetFromSymbolStart = "208">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "46141F95-24A2-401D-91C8-0F302D0287DD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "praticeDelegate/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "190"
-            endingLineNumber = "190"
-            landmarkName = "getNaverInfo()"
-            landmarkType = "7">
-            <Locations>
                <Location
-                  uuid = "46141F95-24A2-401D-91C8-0F302D0287DD - 612c333170eeeb6"
+                  uuid = "3A85EC40-1BF2-4134-8604-CAB3F00D92E8 - aceaf09a85473afd"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in praticeDelegate.ViewController.getNaverInfo() -&gt; ()"
+                  symbolName = "praticeDelegate.ViewController.oauth20ConnectionDidFinishRequestACTokenWithAuthCode() -&gt; ()"
                   moduleName = "praticeDelegate"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/seomin-young/Desktop/praticeDelegate/praticeDelegate/ViewController.swift"
+                  urlString = "file:///Users/seomin-young/Documents/GitHub/practice-SNS-Login/praticeDelegate/praticeDelegate/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "188"
-                  endingLineNumber = "188"
-                  offsetFromSymbolStart = "540">
-               </Location>
-               <Location
-                  uuid = "46141F95-24A2-401D-91C8-0F302D0287DD - 612c333170eee91"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in praticeDelegate.ViewController.getNaverInfo() -&gt; ()"
-                  moduleName = "praticeDelegate"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/seomin-young/Desktop/praticeDelegate/praticeDelegate/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "189"
-                  endingLineNumber = "189"
-                  offsetFromSymbolStart = "636">
+                  startingLineNumber = "328"
+                  endingLineNumber = "328"
+                  offsetFromSymbolStart = "208">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -223,85 +190,20 @@
                   endingLineNumber = "254"
                   offsetFromSymbolStart = "2624">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EBAD0FB3-DF31-44B9-B239-E7E802E5E3D8"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "praticeDelegate/AppDelegate.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "354B9C6E-821D-4A6D-815B-3EB290FC0280"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "praticeDelegate/AppDelegate.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "377DF01E-6A94-4622-80FF-D7B754CF5376"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "praticeDelegate/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
-            landmarkName = "naverLoginBtn(_:)"
-            landmarkType = "7">
-            <Locations>
                <Location
-                  uuid = "377DF01E-6A94-4622-80FF-D7B754CF5376 - 780b8679f5803950"
+                  uuid = "78BC7831-16FF-40AE-9D54-4CD1F4D53A99 - 168e1b1580bcfe94"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "praticeDelegate.ViewController.naverLoginBtn(Any) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Optional&lt;KakaoSDKUser.User&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;KakaoSDKAuth.OAuthToken&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in praticeDelegate.ViewController.loginWithApp() -&gt; ()"
                   moduleName = "praticeDelegate"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/seomin-young/Desktop/praticeDelegate/praticeDelegate/ViewController.swift"
+                  urlString = "file:///Users/seomin-young/Documents/GitHub/practice-SNS-Login/praticeDelegate/praticeDelegate/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "162"
-                  endingLineNumber = "162"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  uuid = "377DF01E-6A94-4622-80FF-D7B754CF5376 - 780b8679f5803931"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "praticeDelegate.ViewController.naverLoginBtn(Any) -&gt; ()"
-                  moduleName = "praticeDelegate"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/seomin-young/Desktop/praticeDelegate/praticeDelegate/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "36">
+                  startingLineNumber = "256"
+                  endingLineNumber = "256"
+                  offsetFromSymbolStart = "2624">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -325,33 +227,142 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3B2B48C2-8D5F-4E50-9FFC-442AD54FB843"
+            uuid = "EAD5BD16-ABC0-496F-AFB1-667C9746CDA7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "praticeDelegate/sampleViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "showphoneView(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EAD5BD16-ABC0-496F-AFB1-667C9746CDA7 - d577ef4d1398805a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in praticeDelegate.sampleViewController.showphoneView(Any) -&gt; ()"
+                  moduleName = "praticeDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seomin-young/Documents/GitHub/practice-SNS-Login/praticeDelegate/praticeDelegate/sampleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "EAD5BD16-ABC0-496F-AFB1-667C9746CDA7 - d577ef4d13988187"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in praticeDelegate.sampleViewController.showphoneView(Any) -&gt; ()"
+                  moduleName = "praticeDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seomin-young/Documents/GitHub/practice-SNS-Login/praticeDelegate/praticeDelegate/sampleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7432B1E4-29FC-48DA-8A37-E2E7274AAEDE"
+            uuid = "71349B44-E769-4BA3-90B0-67F5137A33C1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "praticeDelegate/sampleViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "showphoneView(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "71349B44-E769-4BA3-90B0-67F5137A33C1 - 6bdf32cf63e4c4e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "praticeDelegate.sampleViewController.showphoneView(Any) -&gt; ()"
+                  moduleName = "praticeDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seomin-young/Documents/GitHub/practice-SNS-Login/praticeDelegate/praticeDelegate/sampleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1304">
+               </Location>
+               <Location
+                  uuid = "71349B44-E769-4BA3-90B0-67F5137A33C1 - d577ef4d1398809c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in praticeDelegate.sampleViewController.showphoneView(Any) -&gt; ()"
+                  moduleName = "praticeDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seomin-young/Documents/GitHub/practice-SNS-Login/praticeDelegate/praticeDelegate/sampleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "71349B44-E769-4BA3-90B0-67F5137A33C1 - 6bdf32cf63e4c4e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "praticeDelegate.sampleViewController.showphoneView(Any) -&gt; ()"
+                  moduleName = "praticeDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seomin-young/Documents/GitHub/practice-SNS-Login/praticeDelegate/praticeDelegate/sampleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1320">
+               </Location>
+               <Location
+                  uuid = "71349B44-E769-4BA3-90B0-67F5137A33C1 - 6bdf32cf63e4c404"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "praticeDelegate.sampleViewController.showphoneView(Any) -&gt; ()"
+                  moduleName = "praticeDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seomin-young/Documents/GitHub/practice-SNS-Login/praticeDelegate/praticeDelegate/sampleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "1276">
+               </Location>
+               <Location
+                  uuid = "71349B44-E769-4BA3-90B0-67F5137A33C1 - d577ef4d13988039"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in praticeDelegate.sampleViewController.showphoneView(Any) -&gt; ()"
+                  moduleName = "praticeDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seomin-young/Documents/GitHub/practice-SNS-Login/praticeDelegate/praticeDelegate/sampleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

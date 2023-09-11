@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 import RealmSwift
-
+//realm 조회하기
 class infoTableViewController: UITableViewController {
     
     @IBOutlet var tableVIew: UITableView!

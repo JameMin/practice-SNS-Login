@@ -24,6 +24,9 @@ class sampleViewController: UIViewController {
     @IBOutlet weak var numberView: UITextView!
     @IBOutlet weak var nameField: UITextField!
     
+    @IBOutlet weak var thirdBtn: UIButton!
+    @IBOutlet weak var secondBtn: UIButton!
+    @IBOutlet weak var firstBtn: UIButton!
     @IBOutlet weak var logOutBtn: UIButton!
     @IBOutlet weak var companyView: UIView!
     @IBOutlet weak var phoneView: UIView!
@@ -61,19 +64,18 @@ class sampleViewController: UIViewController {
         let realm = try! Realm()
         let result = realm.objects(Person.self)
         self.load = Array(result)
-      
+        
         if nameField.text == "이름" {
             company.text =  load.last?.date
             nameField.text =  userName
             phoneNumber.text =  load.last?.phone
         } else {
-            print("여기인가요")
             company.text = date
             nameField.text = userName
             phoneNumber.text = mobile
         }
-       
-      
+        
+        
     }
     
     func getInfo() {
@@ -97,41 +99,56 @@ class sampleViewController: UIViewController {
     }
     
     @IBAction func showAgeView(_ sender: Any) {
-        ageView.isHidden = false
-        print("버튼이")
+        //realm 삭제
+        if  let delete = realm?.objects(Person.self).filter(NSPredicate(format: "name = %@", nameField.text ?? "No Rapper")).first {
+            try! realm?.write {
+                realm?.delete(delete)
+            }
+        }
+        
     }
     
     @IBAction func showphoneView(_ sender: Any) {
-        phoneView.isHidden = false
-        print("안눌리는")
-    }
-    @IBAction func showCompanyView(_ sender: Any) {
-        companyView.isHidden = false
-        print("경우")
-    }
-    @IBAction func logOutBtn(_ sender: Any) {
-        loginInstance?.requestDeleteToken()
-        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as? ViewController else { return }
-        vc.modalPresentationStyle = .overFullScreen
-        self.present(vc, animated: true, completion: nil)
-    }
-    
-    @IBAction func moveInfoVC(_ sender: Any) {
-        if company.text != "날짜" {
-            getInfo()
+        //realm 업데이트
+        if  let userinfo = realm?.objects(Person.self).filter(NSPredicate(format: "name = %@", nameField.text ?? "No Rapper")).first {
+            try! realm?.write {
+                userinfo.name = "텍스트"
+                userinfo.age = 25
+            }
+        }
+            
+        }
+        @IBAction func showCompanyView(_ sender: Any) {
+            
+        }
+        @IBAction func logOutBtn(_ sender: Any) {
+            loginInstance?.requestDeleteToken()
+            guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as? ViewController else { return }
+            vc.modalPresentationStyle = .overFullScreen
+            self.present(vc, animated: true, completion: nil)
         }
         
-        let savedPerson = realm?.objects(Person.self)
-        print("경우\(id)")
-        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "infoTableViewController") as? infoTableViewController else { return }
-        self.present(vc, animated: true, completion: nil)
+        @IBAction func moveInfoVC(_ sender: Any) {
+   
+            if company.text != "날짜" {
+                if  let userinfo = realm?.objects(Person.self).filter(NSPredicate(format: "name = %@", nameField.text ?? "No Rapper")).first {
+                    try! realm?.write {
+                        userinfo.date = company.text ?? ""
+                    }
+                }
+            }
+            
+            let savedPerson = realm?.objects(Person.self)
+            print("경우\(id)")
+            guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "infoTableViewController") as? infoTableViewController else { return }
+            self.present(vc, animated: true, completion: nil)
+        }
+        
+        @IBAction func goBack(_ sender: Any) {
+            self.dismiss(animated: false, completion: nil)
+            self.delegate?.returnValue(num: nameField.text, message: phoneNumber.text)
+        }
+        
+        
+        
     }
-    
-    @IBAction func goBack(_ sender: Any) {
-        self.dismiss(animated: false, completion: nil)
-        self.delegate?.returnValue(num: nameField.text, message: phoneNumber.text)
-    }
-    
-    
-    
-}
